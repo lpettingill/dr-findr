@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<head>
+   <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.css" />
+   <script src="http://cdn.leafletjs.com/leaflet-0.5/leaflet.js"></script>
+   
+   
+   
+   
+
+
+<style>
+
+#map {
+  position:absolute;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
+}
+
+</style>
+</head>
+<body>
+
+        <div id="map" style="width: 960px; height: 500px"></div>
+
+<script>
+
+
+
+var map = L.map('map').setView([37.7341003, -122.114853], 10);
+
+L.tileLayer('http://{s}.tile.stamen.com/toner/{z}/{x}/{y}.jpg', {
+    maxZoom: 18,
+    attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>.'
+}).addTo(map);
+
+
+var circle_1 = L.circle([37.69228, -121.89841], 600.0, {
+                            color: 'black',
+                            fillColor: '#2ca25f',
+                            fillOpacity: 0.6
+                            });
+circle_1.bindPopup("KENNETH G. VENOS");
+map.addLayer(circle_1)
+
+var circle_2 = L.circle([37.786957, -122.42252], 330.0, {
+                            color: 'black',
+                            fillColor: '#2ca25f',
+                            fillOpacity: 0.6
+                            });
+circle_2.bindPopup("PAUL B. ROACHE");
+map.addLayer(circle_2)
+
+var circle_3 = L.circle([37.926155, -122.02595], 600.0, {
+                            color: 'black',
+                            fillColor: '#2ca25f',
+                            fillOpacity: 0.6
+                            });
+circle_3.bindPopup("MICHAEL Y. CHANG");
+map.addLayer(circle_3)
+
+var circle_4 = L.circle([37.235817, -121.80101], 270.0, {
+                            color: 'black',
+                            fillColor: '#2ca25f',
+                            fillOpacity: 0.6
+                            });
+circle_4.bindPopup("CHRISTIAN FOGLAR");
+map.addLayer(circle_4)
+
+var circle_5 = L.circle([37.787361, -122.42309], 900.0, {
+                            color: 'black',
+                            fillColor: '#2ca25f',
+                            fillOpacity: 0.6
+                            });
+circle_5.bindPopup("KENNETH H. AKIZUKI");
+map.addLayer(circle_5)
+
+var circle_6 = L.circle([37.757431, -122.41897], 540.0, {
+                            color: 'black',
+                            fillColor: '#2ca25f',
+                            fillOpacity: 0.6
+                            });
+circle_6.bindPopup("HOWARD E. SCHWAT");
+map.addLayer(circle_6)
+
+var circle_7 = L.circle([37.490833, -122.22683], 390.0, {
+                            color: 'black',
+                            fillColor: '#2ca25f',
+                            fillOpacity: 0.6
+                            });
+circle_7.bindPopup("DAVID F. SMOLINS");
+map.addLayer(circle_7)
+
+var circle_8 = L.circle([37.91201, -122.04181], 600.0, {
+                            color: 'black',
+                            fillColor: '#2ca25f',
+                            fillOpacity: 0.6
+                            });
+circle_8.bindPopup("DAVID W. WU");
+map.addLayer(circle_8)
+
+var circle_9 = L.circle([37.774872, -122.45302], 330.0, {
+                            color: 'black',
+                            fillColor: '#2ca25f',
+                            fillOpacity: 0.6
+                            });
+circle_9.bindPopup("ANGELA S. WHITE");
+map.addLayer(circle_9)
+
+var circle_10 = L.circle([37.985153, -122.03406], 270.0, {
+                            color: 'black',
+                            fillColor: '#2ca25f',
+                            fillOpacity: 0.6
+                            });
+circle_10.bindPopup("JOHN A. AMBROSINO");
+map.addLayer(circle_10)
+
+var circle_11 = L.circle([37.680737, -122.47292], 240.0, {
+                            color: 'black',
+                            fillColor: '#2ca25f',
+                            fillOpacity: 0.6
+                            });
+circle_11.bindPopup("MARVIN Y. LO");
+map.addLayer(circle_11)
+
+var circle_12 = L.circle([37.926155, -122.02595], 450.0, {
+                            color: 'black',
+                            fillColor: '#2ca25f',
+                            fillOpacity: 0.6
+                            });
+circle_12.bindPopup("JOAN HART");
+map.addLayer(circle_12)
+
+var circle_13 = L.circle([37.774872, -122.45302], 210.0, {
+                            color: 'black',
+                            fillColor: '#2ca25f',
+                            fillOpacity: 0.6
+                            });
+circle_13.bindPopup("JOSEPH F. HAGGERTY");
+map.addLayer(circle_13)
+
+var circle_14 = L.circle([37.544956, -121.98042], 330.0, {
+                            color: 'black',
+                            fillColor: '#2ca25f',
+                            fillOpacity: 0.6
+                            });
+circle_14.bindPopup("RUSSELL M. NORD");
+map.addLayer(circle_14)
+
+var circle_15 = L.circle([37.377022, -122.06483], 270.0, {
+                            color: 'black',
+                            fillColor: '#2ca25f',
+                            fillOpacity: 0.6
+                            });
+circle_15.bindPopup("CLAUDIA S. KUZIS");
+map.addLayer(circle_15)
+
+var circle_16 = L.circle([37.361233, -121.85059], 330.0, {
+                            color: 'black',
+                            fillColor: '#2ca25f',
+                            fillOpacity: 0.6
+                            });
+circle_16.bindPopup("DARITH S. KHAY");
+map.addLayer(circle_16)
+
+var circle_17 = L.circle([37.439377, -122.16225], 270.0, {
+                            color: 'black',
+                            fillColor: '#2ca25f',
+                            fillOpacity: 0.6
+                            });
+circle_17.bindPopup("LINDA OGELVIE");
+map.addLayer(circle_17)
+
+var circle_18 = L.circle([37.56794, -122.32783], 180.0, {
+                            color: 'black',
+                            fillColor: '#2ca25f',
+                            fillOpacity: 0.6
+                            });
+circle_18.bindPopup("KEVIN S. FINNESEY");
+map.addLayer(circle_18)
+
+var circle_19 = L.circle([37.377022, -122.06483], 270.0, {
+                            color: 'black',
+                            fillColor: '#2ca25f',
+                            fillOpacity: 0.6
+                            });
+circle_19.bindPopup("MICHAEL R. SATHY");
+map.addLayer(circle_19)
+
+var circle_20 = L.circle([37.858109, -122.25949], 510.0, {
+                            color: 'black',
+                            fillColor: '#2ca25f',
+                            fillOpacity: 0.6
+                            });
+circle_20.bindPopup("ERIC J. SMITH");
+map.addLayer(circle_20)
+
+var circle_21 = L.circle([37.377022, -122.06483], 210.0, {
+                            color: 'black',
+                            fillColor: '#2ca25f',
+                            fillOpacity: 0.6
+                            });
+circle_21.bindPopup("BRYAN CHO");
+map.addLayer(circle_21)
+
+var circle_22 = L.circle([37.747532, -122.42031], 450.0, {
+                            color: 'black',
+                            fillColor: '#2ca25f',
+                            fillOpacity: 0.6
+                            });
+circle_22.bindPopup("DAVE ATKIN");
+map.addLayer(circle_22)
+
+var circle_23 = L.circle([37.787361, -122.42309], 240.0, {
+                            color: 'black',
+                            fillColor: '#2ca25f',
+                            fillOpacity: 0.6
+                            });
+circle_23.bindPopup("ROBERT L. DOBROW");
+map.addLayer(circle_23)
+
+var circle_24 = L.circle([37.377022, -122.06483], 270.0, {
+                            color: 'black',
+                            fillColor: '#2ca25f',
+                            fillOpacity: 0.6
+                            });
+circle_24.bindPopup("KEVIN MURRAY");
+map.addLayer(circle_24)
+
+var circle_25 = L.circle([38.323166, -122.29833], 600.0, {
+                            color: 'black',
+                            fillColor: '#2ca25f',
+                            fillOpacity: 0.6
+                            });
+circle_25.bindPopup("DANIEL P. BIRKBECK");
+map.addLayer(circle_25)
+
+var circle_26 = L.circle([37.439377, -122.16225], 270.0, {
+                            color: 'black',
+                            fillColor: '#2ca25f',
+                            fillOpacity: 0.6
+                            });
+circle_26.bindPopup("DARREN DON");
+map.addLayer(circle_26)
+
+var circle_27 = L.circle([37.439377, -122.16225], 330.0, {
+                            color: 'black',
+                            fillColor: '#2ca25f',
+                            fillOpacity: 0.6
+                            });
+circle_27.bindPopup("COLIN EAKIN");
+map.addLayer(circle_27)
+
+var circle_28 = L.circle([37.914101, -122.04226], 600.0, {
+                            color: 'black',
+                            fillColor: '#2ca25f',
+                            fillOpacity: 0.6
+                            });
+circle_28.bindPopup("WILLIAM C. LONGTON");
+map.addLayer(circle_28)
+
+var circle_29 = L.circle([37.439377, -122.16225], 360.0, {
+                            color: 'black',
+                            fillColor: '#2ca25f',
+                            fillOpacity: 0.6
+                            });
+circle_29.bindPopup("ARTHUR BOBROVE");
+map.addLayer(circle_29)
+
+var circle_30 = L.circle([38.131104, -122.23979], 330.0, {
+                            color: 'black',
+                            fillColor: '#2ca25f',
+                            fillOpacity: 0.6
+                            });
+circle_30.bindPopup("TEODORO P. NISSEN");
+map.addLayer(circle_30)
+
+var circle_31 = L.circle([37.790154, -122.4324], 600.0, {
+                            color: 'black',
+                            fillColor: '#2ca25f',
+                            fillOpacity: 0.6
+                            });
+circle_31.bindPopup("JEFFREY L. HALBRECHT");
+map.addLayer(circle_31)
+
+var circle_32 = L.circle([37.785908, -122.45768], 420.0, {
+                            color: 'black',
+                            fillColor: '#2ca25f',
+                            fillOpacity: 0.6
+                            });
+circle_32.bindPopup("WILLIAM S. GREEN");
+map.addLayer(circle_32)
+
+var circle_33 = L.circle([37.786865, -122.4572], 480.0, {
+                            color: 'black',
+                            fillColor: '#2ca25f',
+                            fillOpacity: 0.6
+                            });
+circle_33.bindPopup("GEORGE F. GUTIERREZ");
+map.addLayer(circle_33)
+
+var circle_34 = L.circle([37.878139, -122.18066], 420.0, {
+                            color: 'black',
+                            fillColor: '#2ca25f',
+                            fillOpacity: 0.6
+                            });
+circle_34.bindPopup("ELLIOTT HANDWERKER");
+map.addLayer(circle_34)
+
+var circle_35 = L.circle([38.443104, -122.69884], 480.0, {
+                            color: 'black',
+                            fillColor: '#2ca25f',
+                            fillOpacity: 0.6
+                            });
+circle_35.bindPopup("GORDON J. JURIANSZ");
+map.addLayer(circle_35)
+
+var circle_36 = L.circle([37.377022, -122.06483], 330.0, {
+                            color: 'black',
+                            fillColor: '#2ca25f',
+                            fillOpacity: 0.6
+                            });
+circle_36.bindPopup("ELAINE DAVIS");
+map.addLayer(circle_36)
+
+var circle_37 = L.circle([37.795681, -122.40965], 330.0, {
+                            color: 'black',
+                            fillColor: '#2ca25f',
+                            fillOpacity: 0.6
+                            });
+circle_37.bindPopup("HO T. TAN");
+map.addLayer(circle_37)
+
+var circle_38 = L.circle([37.780819, -122.23176], 30.0, {
+                            color: 'black',
+                            fillColor: '#2ca25f',
+                            fillOpacity: 0.6
+                            });
+circle_38.bindPopup("JAIME O. CORTES");
+map.addLayer(circle_38)
+
+var circle_39 = L.circle([37.377022, -122.06483], 300.0, {
+                            color: 'black',
+                            fillColor: '#2ca25f',
+                            fillOpacity: 0.6
+                            });
+circle_39.bindPopup("JAYE ANDAYA");
+map.addLayer(circle_39)
+
+var circle_40 = L.circle([37.361176, -121.8462], 630.0, {
+                            color: 'black',
+                            fillColor: '#2ca25f',
+                            fillOpacity: 0.6
+                            });
+circle_40.bindPopup("MORTEZA M. FARR");
+map.addLayer(circle_40)
+
+var circle_41 = L.circle([38.131104, -122.23979], 300.0, {
+                            color: 'black',
+                            fillColor: '#2ca25f',
+                            fillOpacity: 0.6
+                            });
+circle_41.bindPopup("JOSEPH M. CENTENO");
+map.addLayer(circle_41)
+
+var circle_42 = L.circle([37.858109, -122.25949], 570.0, {
+                            color: 'black',
+                            fillColor: '#2ca25f',
+                            fillOpacity: 0.6
+                            });
+circle_42.bindPopup("JONATHAN B. ELLMAN");
+map.addLayer(circle_42)
+
+var circle_43 = L.circle([37.153934, -121.64822], 480.0, {
+                            color: 'black',
+                            fillColor: '#2ca25f',
+                            fillOpacity: 0.6
+                            });
+circle_43.bindPopup("WILLIAM B. JOYCE");
+map.addLayer(circle_43)
+
+var circle_44 = L.circle([37.768429, -122.43571], 330.0, {
+                            color: 'black',
+                            fillColor: '#2ca25f',
+                            fillOpacity: 0.6
+                            });
+circle_44.bindPopup("PHILIP J. O'KEEFE");
+map.addLayer(circle_44)
+
+var circle_45 = L.circle([37.549271, -121.97461], 150.0, {
+                            color: 'black',
+                            fillColor: '#2ca25f',
+                            fillOpacity: 0.6
+                            });
+circle_45.bindPopup("STEVEN BARTIS");
+map.addLayer(circle_45)
+
+
+
+
+
+
+</script>
+
+</body>
