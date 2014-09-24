@@ -1,24 +1,24 @@
-fullname,zip,street1,city,longitude,latitude,proc,diff,malp,pharmadollars,services_count,yelprating,yelpreviewcount,sentiment,yelp_stand,malp_word,services10,yelp10,diff10,pharma10,score
-STANLEY MA,94598,2405 SHADELANDS DR,WALNUT CREEK,-122.02595,37.926155,X-ray exam of lower spine,-10.819092,0,,13,,,,,no,1,0,6,0,7
-ROBERT J. SCHIER,94520,2600 PARK AVE,CONCORD,-122.03402,37.984665,X-ray exam of lower spine,28.640701,0,,17,,,,,no,2,0,2,0,4
-RAYMOND M. BONNEAU,94945,165 ROWLAND WAY STE 100,NOVATO,-122.5592,38.09761,X-ray exam of lower spine,-46.739357,0,,24,,,,,no,3,0,9,0,12
-ROBERT A. ROVNER,94583,5801 NORRIS CANYON RD,SAN RAMON,-121.95885,37.775478,X-ray exam of lower spine,142.67731,0,,70,,,,,no,7,0,1,0,8
-MARK GOLDSMITH,94546,20103 LAKE CHABOT RD,CASTRO VALLEY,-122.08723,37.697979,X-ray exam of lower spine,-15.88871,0,,21,,,,,no,3,0,7,0,10
-LAURA N. SCIARONI,94015,1800 SULLIVAN AVE,DALY CITY,-122.47292,37.680737,X-ray exam of lower spine,78.677307,0,,13,,,,,no,1,0,2,0,3
-NEETI BATHIA,94063,500 ARGUELLO ST,REDWOOD CITY,-122.23359,37.487427,X-ray exam of lower spine,73.738831,0,,26,,,,,no,4,0,2,0,6
-MATTHEW J. NESPER,94609,411 30TH ST,OAKLAND,-122.26492,37.819,X-ray exam of lower spine,-57.300476,0,,34,,,,,no,5,0,10,0,15
-YVONNE T. SUN,94609,411 30TH ST,OAKLAND,-122.26492,37.819,X-ray exam of lower spine,29.11129,0,,21,,,,,no,3,0,2,0,5
-WALTER R. PYKA,94401,77 N SAN MATEO DR,SAN MATEO,-122.32783,37.56794,X-ray exam of lower spine,67.677307,0,,28,,,,,no,4,0,2,0,6
-STEPHEN I. ABEDON,94015,1900 SULLIVAN AVE,DALY CITY,-122.47305,37.679756,X-ray exam of lower spine,-21.88871,0,,29,,,,,no,4,0,8,0,12
-JASON T. HUFFMAN,94558,1100 TRANCAS ST,NAPA,-122.29833,38.323166,X-ray exam of lower spine,8.3773041,0,,219,,,,,no,9,0,4,0,13
-RICHARD TURNER,95128,2105 FOREST AVE,SAN JOSE,-121.93728,37.327084,X-ray exam of lower spine,7.11129,0,,12,,,,,no,1,0,4,0,5
-DIMITRIY G. KONDRASHOV,94117,1 SHRADER ST,SAN FRANCISCO,-122.45302,37.774872,X-ray exam of lower spine,-21.320251,0,,45,,,,,no,5,0,7,0,12
-AARON K. SALYAPONGSE,94550,1133 E STANLEY BLVD,LIVERMORE,-121.78223,37.678837,X-ray exam of lower spine,-3.7026978,0,,19,,,,,no,3,0,5,0,8
-RICHARD L. WHEAT,94062,170 ALAMEDA DE LAS PULGAS,REDWOOD CITY,-122.25326,37.480976,X-ray exam of lower spine,-21.88871,0,,14,,,,,no,1,0,8,0,9
-PAUL NOTTINGHAM,94596,675 YGNACIO VALLEY RD,WALNUT CREEK,-122.0598,37.906471,X-ray exam of lower spine,-54.822693,0,,56,,,,,no,6,0,9,0,15
-LYDIA DELANEY-SATHY,94040,701 E EL CAMINO REAL,MOUNTAIN VIEW,-122.06483,37.377022,X-ray exam of lower spine,26.558655,0,,38,,,,,no,5,0,2,0,7
-JOSEPH M. GRANT,94588,5725 W LAS POSITAS BLVD,PLEASANTON,-121.88621,37.688049,X-ray exam of lower spine,-18.322693,0,,297,,,,,no,9,0,6,0,15
-LUHUA CHENG,95128,751 S BASCOM AVE,SAN JOSE,-121.93192,37.313755,X-ray exam of lower spine,244.41878,0,,11,,,,,no,1,0,1,0,2
-MICHAEL C. LAI,94015,1900 SULLIVAN AVE,DALY CITY,-122.47305,37.679756,X-ray exam of lower spine,2.11129,0,,50,,,,,no,6,0,4,0,10
-DANIEL H. BUNNELL,94558,1000 TRANCAS STREET,NAPA,-122.29639,38.323505,X-ray exam of lower spine,-33.88871,0,,31,,,,,no,4,0,9,0,13
-JAMES D. FONTAINE,94588,5725 W LAS POSITAS BLVD,PLEASANTON,-121.88621,37.688049,X-ray exam of lower spine,-77.400635,0,,78,,,,,no,7,0,10,0,17
+fullname,city,longitude,latitude,yearspracticing,proc,malp,services_count,services10,pharma10,malp_word,pharmadollars,diff10new,yelp10new,score,scoreptile,lastlower,bad
+LAURA N. SCIARONI,DALY CITY,-122.47292,37.680737,17,X-ray exam of lower spine,0,13,1,0,no,,-7,0,-6,5,sciaroni,
+LYDIA DELANEY-SATHY,MOUNTAIN VIEW,-122.06483,37.377022,21,X-ray exam of lower spine,0,38,5,0,no,,-4,0,1,35,delaney-sathy,
+RICHARD L. WHEAT,REDWOOD CITY,-122.25326,37.480976,34,X-ray exam of lower spine,0,14,1,0,no,,6,0,7,44,wheat,
+WALTER R. PYKA,SAN MATEO,-122.32783,37.56794,35,X-ray exam of lower spine,0,28,4,0,no,,-6,0,-2,14,pyka,
+MARK GOLDSMITH,CASTRO VALLEY,-122.08723,37.697979,34,X-ray exam of lower spine,0,21,3,0,no,,7,0,10,70,goldsmith,
+JOSEPH M. GRANT,PLEASANTON,-121.88621,37.688049,34,X-ray exam of lower spine,0,297,9,0,no,,7,0,16,96,grant,
+ROBERT A. ROVNER,SAN RAMON,-121.95885,37.775478,35,X-ray exam of lower spine,0,70,7,0,no,,-8,0,-1,27,rovner,
+NEETI BATHIA,REDWOOD CITY,-122.23359,37.487427,,X-ray exam of lower spine,0,26,4,0,no,,-7,0,-3,9,bathia,
+DANIEL H. BUNNELL,NAPA,-122.29639,38.323505,31,X-ray exam of lower spine,0,31,4,0,no,,5,0,9,57,bunnell,
+YVONNE T. SUN,OAKLAND,-122.26492,37.819,,X-ray exam of lower spine,0,21,3,0,no,,-5,0,-2,14,sun,
+MICHAEL C. LAI,DALY CITY,-122.47305,37.679756,17,X-ray exam of lower spine,0,50,6,0,no,,-1,0,5,40,lai,
+STANLEY MA,WALNUT CREEK,-122.02595,37.926155,,X-ray exam of lower spine,0,13,1,0,no,,8,0,9,57,ma,
+PAUL NOTTINGHAM,WALNUT CREEK,-122.0598,37.906471,33,X-ray exam of lower spine,0,56,6,0,no,,4,0,10,70,nottingham,
+STEPHEN I. ABEDON,DALY CITY,-122.47305,37.679756,25,X-ray exam of lower spine,0,29,4,0,no,,6,0,10,70,abedon,
+JASON T. HUFFMAN,NAPA,-122.29833,38.323166,15,X-ray exam of lower spine,0,219,9,0,no,,-2,0,7,44,huffman,
+RICHARD TURNER,SAN JOSE,-121.93728,37.327084,,X-ray exam of lower spine,0,12,1,0,no,,-2,0,-1,27,turner,
+MATTHEW J. NESPER,OAKLAND,-122.26492,37.819,34,X-ray exam of lower spine,0,34,5,0,no,,4,0,9,57,nesper,
+JAMES D. FONTAINE,PLEASANTON,-121.88621,37.688049,24,X-ray exam of lower spine,0,78,7,0,no,,3,0,10,70,fontaine,
+LUHUA CHENG,SAN JOSE,-121.93192,37.313755,26,X-ray exam of lower spine,0,11,1,0,no,,-9,0,-8,1,cheng,
+DIMITRIY G. KONDRASHOV,SAN FRANCISCO,-122.45302,37.774872,14,X-ray exam of lower spine,0,45,5,0,no,,7,0,12,87,kondrashov,
+RAYMOND M. BONNEAU,NOVATO,-122.5592,38.09761,40,X-ray exam of lower spine,0,24,3,0,no,,5,0,8,53,bonneau,
+ROBERT J. SCHIER,CONCORD,-122.03402,37.984665,33,X-ray exam of lower spine,0,17,2,0,no,,-4,0,-2,14,schier,
+AARON K. SALYAPONGSE,LIVERMORE,-121.78223,37.678837,13,X-ray exam of lower spine,0,19,3,0,no,,10,0,13,92,salyapongse,

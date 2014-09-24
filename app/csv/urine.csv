@@ -1,56 +1,56 @@
-fullname,zip,street1,city,longitude,latitude,proc,diff,malp,pharmadollars,services_count,yelprating,yelpreviewcount,sentiment,yelp_stand,malp_word,services10,yelp10,diff10,pharma10,score
-M M. QUAN,94118,3838 CALIFORNIA ST,SAN FRANCISCO,-122.45768,37.785908,Urinalysis nonauto w/o scope,-.75509071,0,,136,,,,,no,8,0,5,0,13
-ANDAL KADAMBI,94568,4050 DUBLIN BLVD,DUBLIN,-121.87423,37.705521,Urinalysis nonauto w/o scope,-2.0127907,0,,17,,,,,no,2,0,6,0,8
-CRAIG L. GILLESPIE,94533,1525 WEBSTER STREET,FAIRFIELD,-122.04742,38.256657,Urinalysis nonauto w/o scope,-4.0660334,0,,115,,,,,no,8,0,8,0,16
-MANIKA V. KAUSHAL,95120,6475 CAMDEN AVE,SAN JOSE,-121.86433,37.220657,Urinalysis nonauto w/o scope,9.9339666,0,,14,,,,,no,1,0,1,0,2
-JEFFREY M. WOLDRICH,94545,27212 CALAROGA AVE,HAYWARD,-122.08965,37.632298,Urinalysis nonauto w/o scope,.97288227,0,,34,,,,,no,5,0,4,0,9
-YI YI S. GU,94609,350 30TH ST,OAKLAND,-122.26389,37.818897,Urinalysis nonauto w/o scope,0,0,,13,,,,,no,1,0,5,0,6
-NAUREEN A. SHAIKH,94965,111 SECOND STREET,SAUSALITO,-122.4808,37.848537,Urinalysis nonauto w/o scope,-4.8993664,0,,18,,,,,no,2,0,9,0,11
-THOMAS O. STODGEL,94401,101 S SAN MATEO DR,SAN MATEO,-122.32616,37.566483,Urinalysis nonauto w/o scope,39.244911,0,,18,,,,,no,2,0,1,0,3
-JEANNIE L. PFLUM,95405,1140 SONOMA AVE,SANTA ROSA,-122.69981,38.441162,Urinalysis nonauto w/o scope,-8.7921276,0,,27,,,,,no,4,0,9,0,13
-KIMBERLY HICKS,94609,3317 ELM ST,OAKLAND,-122.26537,37.821728,Urinalysis nonauto w/o scope,1.9872093,0,,54,,,,,no,6,0,4,0,10
-EDWARD DEWEES,95008,1600 W CAMPBELL AVE,CAMPBELL,-121.97808,37.285976,Urinalysis nonauto w/o scope,.93396664,0,,43,,,,,no,5,0,4,0,9
-QUANJING LIU,94086,401 OLD SAN FRANCISCO RD,SUNNYVALE,-122.0287,37.367916,Urinalysis nonauto w/o scope,-2.0127907,0,,14,,,,,no,1,0,6,0,7
-IVAN Y. LEE,94545,27001 CALAROGA AVE,HAYWARD,-122.08987,37.634083,Urinalysis nonauto w/o scope,-4.584219,-10,,28,,,,,yes,4,0,8,0,2
-ROBERT W. DARTER,94574,1222 PINE ST,SAINT HELENA,-122.47226,38.50592,Urinalysis nonauto w/o scope,-4.0660334,0,,20,,,,,no,3,0,8,0,11
-CHARLES W. CLARY,94558,3434 VILLA LN STE 380,NAPA,-122.29395,38.325287,Urinalysis nonauto w/o scope,-4.0660334,0,,16,,,,,no,2,0,8,0,10
-JOHN A. NUNES,94588,5575 W LAS POSITAS BLVD,PLEASANTON,-121.87923,37.692135,Urinalysis nonauto w/o scope,-4.7550907,0,,14,,,,,no,1,0,8,0,9
-MALA AHLUWALIA,94040,701 E EL CAMINO REAL,MOUNTAIN VIEW,-122.06483,37.377022,Urinalysis nonauto w/o scope,-.066033363,0,,30,,,,,no,4,0,5,0,9
-JOAN SAXTON,94109,1 DANIEL BURNHAM CT,SAN FRANCISCO,-122.42252,37.786957,Urinalysis nonauto w/o scope,-.45723534,0,,18,3.5,3,.15899999,.088249937,no,2,2,5,0,9
-DANA C. NIENDORF,94954,1496 PROFESSIONAL DR,PETALUMA,-122.63286,38.255726,Urinalysis nonauto w/o scope,-1.0271177,0,,445,,,,,no,10,0,6,0,16
-FANNIE HUANG,94040,701 E EL CAMINO REAL,MOUNTAIN VIEW,-122.06483,37.377022,Urinalysis nonauto w/o scope,-.066033363,0,,12,,,,,no,1,0,5,0,6
-ASHLEY K. WEINERT,95404,3317 CHANATE RD,SANTA ROSA,-122.70708,38.46859,Urinalysis nonauto w/o scope,-8.0884237,0,,24,,,,,no,3,0,9,0,12
-DEREK JOHNSON,94513,1120 2ND ST,BRENTWOOD,-121.69769,37.937107,Urinalysis nonauto w/o scope,-1.0660334,0,,16,,,,,no,2,0,6,0,8
-TUAN A. DUONG,94115,1489 WEBSTER ST,SAN FRANCISCO,-122.43118,37.783871,Urinalysis nonauto w/o scope,5.3633556,0,,436,,,,,no,10,0,2,0,12
-JACQUELINE R. SKVARIL,95403,3536 MENDOCINO AVE,SANTA ROSA,-122.72651,38.47327,Urinalysis nonauto w/o scope,-5.0127907,0,,15,,,,,no,2,0,8,0,10
-MICHAEL SMITH,94706,1181 SOLANO AVE,ALBANY,-122.29665,37.89043,Urinalysis nonauto w/o scope,8.1339674,0,,35,,,,,no,5,0,2,0,7
-DOLORES K. MUSCO,94583,2301 CAMINO RAMON,SAN RAMON,-121.96593,37.775612,Urinalysis nonauto w/o scope,-6.0660334,0,,49,,,,,no,6,0,9,0,15
-SUSANNE GOEB,94506,4165 BLACKHAWK PLAZA CIR,DANVILLE,-121.91675,37.799988,Urinalysis nonauto w/o scope,3.166666,0,,44,,,,,no,5,0,3,0,8
-STUART BURSTEN,94558,3443 VILLA LN,NAPA,-122.29456,38.325932,Urinalysis nonauto w/o scope,-4.2539997,0,,14,,,,,no,1,0,10,0,11
-TAMI MILLER,94301,795 EL CAMINO REAL,PALO ALTO,-122.16225,37.439377,Urinalysis nonauto w/o scope,-.066033363,0,,16,,,,,no,2,0,5,0,7
-MAHSHEED SHARIATI,94598,1455 MONTEGO,WALNUT CREEK,-122.04186,37.910461,Urinalysis nonauto w/o scope,-6.0660334,0,,68,,,,,no,7,0,9,0,16
-GREGG S. SORENSEN,94565,53 MANOR DR STE A,BAY POINT,-121.94738,38.026329,Urinalysis nonauto w/o scope,5.9339666,0,417,113,,,,,no,8,0,2,4,6
-SINAN N. ALSHAHWANY,94513,2400 BALFOUR RD,BRENTWOOD,-121.73489,37.925194,Urinalysis nonauto w/o scope,-8.0127907,0,,44,,,,,no,5,0,10,0,15
-NICOLA B. HANCHOCK,94705,3010 COLBY ST,BERKELEY,-122.25772,37.855213,Urinalysis nonauto w/o scope,-3.0127907,0,,19,,,,,no,3,0,7,0,10
-EVELYN KHOO,94010,1501 TROUSDALE DR,BURLINGAME,-122.38329,37.594425,Urinalysis nonauto w/o scope,-2.0127907,0,,23,,,,,no,3,0,6,0,9
-RICARDO J. PEREZ,95037,17600 MONTEREY ST,MORGAN HILL,-121.65459,37.130646,Urinalysis nonauto w/o scope,-1.0660334,0,,56,,,,,no,6,0,6,0,12
-TAKI N. ANAGNOSTON,95020,700 W 6TH ST,GILROY,-121.57757,37.004185,Urinalysis nonauto w/o scope,.24490929,0,,13,,,,,no,1,0,5,0,6
-GARY N. FURNESS,95405,2455 SUMMERFIELD RD,SANTA ROSA,-122.6619,38.441738,Urinalysis nonauto w/o scope,-1.466033,0,,40,,,,,no,5,0,6,0,11
-ALEXANDER KORSUNSKY,95129,5150 GRAVES AVE STE 5B,SAN JOSE,-121.99264,37.294456,Urinalysis nonauto w/o scope,-12.012791,0,,35,2.5,6,.20999999,.1883117,no,5,2,10,0,17
-ROBERT A. VARADY,94533,1525 WEBSTER ST,FAIRFIELD,-122.04742,38.256657,Urinalysis nonauto w/o scope,-4.0660334,0,,29,,,,,no,4,0,8,0,12
-SUSAN J. SPENCER,94401,101 S SAN MATEO DR,SAN MATEO,-122.32616,37.566483,Urinalysis nonauto w/o scope,39.244911,0,,16,,,,,no,2,0,1,0,3
-ANNA FRICK,94609,350 30TH ST,OAKLAND,-122.26389,37.818897,Urinalysis nonauto w/o scope,-7.7550907,0,,135,,,,,no,8,0,9,0,17
-STACEY F. BARRIE,94538,2299 MOWRY AVENUE,FREMONT,-121.98214,37.556435,Urinalysis nonauto w/o scope,4.2449093,0,,13,,,,,no,1,0,3,0,4
-JOHN W. COPELAND,94509,1111 A ST,ANTIOCH,-121.80598,38.010265,Urinalysis nonauto w/o scope,10.933967,-10,,62,,,,,yes,6,0,1,0,-3
-GRACE S. CHOU,94564,2160 APPIAN WAY,PINOLE,-122.30174,37.99675,Urinalysis nonauto w/o scope,-2.8363199,0,,17,,,,,no,2,0,7,0,9
-AILEEN WHELAN,94010,1501 TROUSDALE DR,BURLINGAME,-122.38329,37.594425,Urinalysis nonauto w/o scope,5.9872093,0,,18,,,,,no,2,0,2,0,4
-ROSS A. PIRKLE,94598,106 LA CASA VIA,WALNUT CREEK,-122.04305,37.912754,Urinalysis nonauto w/o scope,-8.0127907,0,332,29,,,,,no,4,0,10,3,11
-ALEXANDER D. DOAN,95128,105 N BASCOM AVE,SAN JOSE,-121.93209,37.325909,Urinalysis nonauto w/o scope,5.7460003,0,,368,,,,,no,10,0,1,0,11
-DAMAYANTHI KALISETTI,94568,4050 DUBLIN BLVD.,DUBLIN,-121.87423,37.705521,Urinalysis nonauto w/o scope,-2.0127907,0,,34,,,,,no,5,0,6,0,11
-LISA N. GERVIN,94040,701 E EL CAMINO REAL,MOUNTAIN VIEW,-122.06483,37.377022,Urinalysis nonauto w/o scope,-2.0127907,0,,12,,,,,no,1,0,6,0,7
-STEVEN M. KAPLAN,94517,1520 KIRKER PASS RD STE A,CLAYTON,-121.95606,37.952965,Urinalysis nonauto w/o scope,5.9339666,0,,15,,,,,no,2,0,2,0,4
-CHARLES WEISS,94301,795 EL CAMINO REAL,PALO ALTO,-122.16225,37.439377,Urinalysis nonauto w/o scope,-.64285755,0,,51,,,,,no,6,0,5,0,11
-BARRY A. BROWN,94574,1222 PINE ST,SAINT HELENA,-122.47226,38.50592,Urinalysis nonauto w/o scope,-4.0660334,0,,101,,,,,no,8,0,8,0,16
-SUSAN J. ADLER-BRESSLER,94520,2700 GRANT ST,CONCORD,-122.03596,37.984161,Urinalysis nonauto w/o scope,-8.0127907,0,,17,,,,,no,2,0,10,0,12
-KE H. TUAN,94108,929 CLAY ST,SAN FRANCISCO,-122.40835,37.793976,Urinalysis nonauto w/o scope,-.75509071,0,,36,,,,,no,5,0,5,0,10
-DALE A. CAPULONG,95116,244 N JACKSON AVE,SAN JOSE,-121.84882,37.36401,Urinalysis nonauto w/o scope,-.75509071,0,,37,,,,,no,5,0,5,0,10
+fullname,city,longitude,latitude,yearspracticing,proc,malp,services_count,services10,pharma10,malp_word,pharmadollars,diff10new,yelp10new,score,scoreptile,lastlower,bad
+SUSAN J. SPENCER,SAN MATEO,-122.32616,37.566483,27,Urinalysis nonauto w/o scope,0,16,2,0,no,,-5,0,-3,2,spencer,
+JOHN W. COPELAND,ANTIOCH,-121.80598,38.010265,51,Urinalysis nonauto w/o scope,10,62,6,0,yes,,-3,0,-7,1,copeland,1
+STACEY F. BARRIE,FREMONT,-121.98214,37.556435,19,Urinalysis nonauto w/o scope,0,13,1,0,no,,-1,0,0,8,barrie,
+MALA AHLUWALIA,MOUNTAIN VIEW,-122.06483,37.377022,19,Urinalysis nonauto w/o scope,0,30,4,0,no,,10,0,14,71,ahluwalia,
+MICHAEL SMITH,ALBANY,-122.29665,37.89043,46,Urinalysis nonauto w/o scope,0,35,5,0,no,,-2,0,3,19,smith,
+RICARDO J. PEREZ,MORGAN HILL,-121.65459,37.130646,37,Urinalysis nonauto w/o scope,0,56,6,0,no,,10,0,16,86,perez,
+ROBERT A. VARADY,FAIRFIELD,-122.04742,38.256657,36,Urinalysis nonauto w/o scope,0,29,4,0,no,,10,0,14,71,varady,
+ROBERT W. DARTER,SAINT HELENA,-122.47226,38.50592,,Urinalysis nonauto w/o scope,0,20,3,0,no,,10,0,13,64,darter,
+JEFFREY M. WOLDRICH,HAYWARD,-122.08965,37.632298,8,Urinalysis nonauto w/o scope,0,34,5,0,no,,-1,0,4,24,woldrich,
+NICOLA B. HANCHOCK,BERKELEY,-122.25772,37.855213,33,Urinalysis nonauto w/o scope,0,19,3,0,no,,10,0,13,64,hanchock,
+KIMBERLY HICKS,OAKLAND,-122.26537,37.821728,16,Urinalysis nonauto w/o scope,0,54,6,0,no,,-1,0,5,30,hicks,
+JOAN SAXTON,SAN FRANCISCO,-122.42252,37.786957,40,Urinalysis nonauto w/o scope,0,18,2,0,no,,10,-9,3,19,saxton,
+GRACE S. CHOU,PINOLE,-122.30174,37.99675,18,Urinalysis nonauto w/o scope,0,17,2,0,no,,10,0,12,53,chou,
+BARRY A. BROWN,SAINT HELENA,-122.47226,38.50592,37,Urinalysis nonauto w/o scope,0,101,8,0,no,,10,0,18,93,brown,
+DAMAYANTHI KALISETTI,DUBLIN,-121.87423,37.705521,16,Urinalysis nonauto w/o scope,0,34,5,0,no,,10,0,15,77,kalisetti,
+SINAN N. ALSHAHWANY,BRENTWOOD,-121.73489,37.925194,24,Urinalysis nonauto w/o scope,0,44,5,0,no,,9,0,14,71,alshahwany,
+TAMI MILLER,PALO ALTO,-122.16225,37.439377,19,Urinalysis nonauto w/o scope,0,16,2,0,no,,10,0,12,53,miller,
+MANIKA V. KAUSHAL,SAN JOSE,-121.86433,37.220657,13,Urinalysis nonauto w/o scope,0,14,1,0,no,,-2,0,-1,6,kaushal,
+ANNA FRICK,OAKLAND,-122.26389,37.818897,10,Urinalysis nonauto w/o scope,0,135,8,0,no,,9,0,17,91,frick,
+MAHSHEED SHARIATI,WALNUT CREEK,-122.04186,37.910461,7,Urinalysis nonauto w/o scope,0,68,7,0,no,,9,0,16,86,shariati,
+AILEEN WHELAN,BURLINGAME,-122.38329,37.594425,25,Urinalysis nonauto w/o scope,0,18,2,0,no,,-2,0,0,8,whelan,
+DANA C. NIENDORF,PETALUMA,-122.63286,38.255726,43,Urinalysis nonauto w/o scope,0,445,10,0,no,,10,0,20,99,niendorf,
+TUAN A. DUONG,SAN FRANCISCO,-122.43118,37.783871,14,Urinalysis nonauto w/o scope,0,436,10,0,no,,-2,0,8,33,duong,
+JOHN A. NUNES,PLEASANTON,-121.87923,37.692135,,Urinalysis nonauto w/o scope,0,14,1,0,no,,9,0,10,37,nunes,
+SUSANNE GOEB,DANVILLE,-121.91675,37.799988,,Urinalysis nonauto w/o scope,0,44,5,0,no,,-1,0,4,24,goeb,
+LISA N. GERVIN,MOUNTAIN VIEW,-122.06483,37.377022,19,Urinalysis nonauto w/o scope,0,12,1,0,no,,10,0,11,41,gervin,
+CRAIG L. GILLESPIE,FAIRFIELD,-122.04742,38.256657,32,Urinalysis nonauto w/o scope,0,115,8,0,no,,10,0,18,93,gillespie,
+JEANNIE L. PFLUM,SANTA ROSA,-122.69981,38.441162,17,Urinalysis nonauto w/o scope,0,27,4,0,no,,9,0,13,64,pflum,
+THOMAS O. STODGEL,SAN MATEO,-122.32616,37.566483,27,Urinalysis nonauto w/o scope,0,18,2,0,no,,-5,0,-3,2,stodgel,
+DOLORES K. MUSCO,SAN RAMON,-121.96593,37.775612,,Urinalysis nonauto w/o scope,0,49,6,0,no,,9,0,15,77,musco,
+NAUREEN A. SHAIKH,SAUSALITO,-122.4808,37.848537,,Urinalysis nonauto w/o scope,0,18,2,0,no,,9,0,11,41,shaikh,
+SUSAN J. ADLER-BRESSLER,CONCORD,-122.03596,37.984161,30,Urinalysis nonauto w/o scope,0,17,2,0,no,,9,0,11,41,adler-bressler,
+GARY N. FURNESS,SANTA ROSA,-122.6619,38.441738,30,Urinalysis nonauto w/o scope,0,40,5,0,no,,10,0,15,77,furness,
+EVELYN KHOO,BURLINGAME,-122.38329,37.594425,17,Urinalysis nonauto w/o scope,0,23,3,0,no,,10,0,13,64,khoo,
+EDWARD DEWEES,CAMPBELL,-121.97808,37.285976,51,Urinalysis nonauto w/o scope,0,43,5,0,no,,-1,0,4,24,dewees,
+CHARLES WEISS,PALO ALTO,-122.16225,37.439377,33,Urinalysis nonauto w/o scope,0,51,6,0,no,,10,0,16,86,weiss,
+TAKI N. ANAGNOSTON,GILROY,-121.57757,37.004185,,Urinalysis nonauto w/o scope,0,13,1,0,no,,-1,0,0,8,anagnoston,
+ANDAL KADAMBI,DUBLIN,-121.87423,37.705521,14,Urinalysis nonauto w/o scope,0,17,2,0,no,,10,0,12,53,kadambi,
+DEREK JOHNSON,BRENTWOOD,-121.69769,37.937107,13,Urinalysis nonauto w/o scope,0,16,2,0,no,,10,0,12,53,johnson,
+FANNIE HUANG,MOUNTAIN VIEW,-122.06483,37.377022,37,Urinalysis nonauto w/o scope,0,12,1,0,no,,10,0,11,41,huang,
+ALEXANDER D. DOAN,SAN JOSE,-121.93209,37.325909,19,Urinalysis nonauto w/o scope,0,368,10,0,no,,-2,0,8,33,doan,
+GREGG S. SORENSEN,BAY POINT,-121.94738,38.026329,,Urinalysis nonauto w/o scope,0,113,8,4,no,417,-2,0,2,17,sorensen,
+M M. QUAN,SAN FRANCISCO,-122.45768,37.785908,38,Urinalysis nonauto w/o scope,0,136,8,0,no,,10,0,18,93,quan,
+JACQUELINE R. SKVARIL,SANTA ROSA,-122.72651,38.47327,26,Urinalysis nonauto w/o scope,0,15,2,0,no,,9,0,11,41,skvaril,
+QUANJING LIU,SUNNYVALE,-122.0287,37.367916,12,Urinalysis nonauto w/o scope,0,14,1,0,no,,10,0,11,41,liu,
+ASHLEY K. WEINERT,SANTA ROSA,-122.70708,38.46859,23,Urinalysis nonauto w/o scope,0,24,3,0,no,,9,0,12,53,weinert,
+DALE A. CAPULONG,SAN JOSE,-121.84882,37.36401,47,Urinalysis nonauto w/o scope,0,37,5,0,no,,10,0,15,77,capulong,
+STEVEN M. KAPLAN,CLAYTON,-121.95606,37.952965,27,Urinalysis nonauto w/o scope,0,15,2,0,no,,-2,0,0,8,kaplan,
+CHARLES W. CLARY,NAPA,-122.29395,38.325287,8,Urinalysis nonauto w/o scope,0,16,2,0,no,,10,0,12,53,clary,
+ROSS A. PIRKLE,WALNUT CREEK,-122.04305,37.912754,20,Urinalysis nonauto w/o scope,0,29,4,3,no,332,9,0,10,37,pirkle,
+IVAN Y. LEE,HAYWARD,-122.08987,37.634083,22,Urinalysis nonauto w/o scope,10,28,4,0,yes,,9,0,3,19,lee,1
+YI YI S. GU,OAKLAND,-122.26389,37.818897,11,Urinalysis nonauto w/o scope,0,13,1,0,no,,0,0,1,15,gu,
+KE H. TUAN,SAN FRANCISCO,-122.40835,37.793976,22,Urinalysis nonauto w/o scope,0,36,5,0,no,,10,0,15,77,tuan,
+STUART BURSTEN,NAPA,-122.29456,38.325932,34,Urinalysis nonauto w/o scope,0,14,1,0,no,,10,0,11,41,bursten,
+ALEXANDER KORSUNSKY,SAN JOSE,-121.99264,37.294456,35,Urinalysis nonauto w/o scope,0,35,5,0,no,,8,-7,6,31,korsunsky,
