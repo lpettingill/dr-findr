@@ -9,31 +9,34 @@ import pandas.io.sql as psql
 import MySQLdb as mys
 import numpy as np
 
-db = mdb.connect(user="root", host="localhost", db="round4", charset='utf8')
+db = mdb.connect(user="root", host="localhost", db="demo", charset='utf8')
 
 @app.route('/')
 def welcome():
 	return render_template("welcome.html")
-	
+
+@app.route('/index')
+def index():
+    return render_template("index.html")
+
 @app.route('/slides')
 def slides():
 	return render_template("slides.html")
-	
+
+@app.route('/drsearch')
+def drsearch():
+    return render_template("drsearch.html")
+
 @app.route('/index2')
 def badtable():
   	with db:
  		cur = db.cursor()
-    		cur.execute("SELECT fullname, city, proc, pharmadollars, yelprating, malp_word FROM badt ORDER BY malp_word DESC LIMIT 50;")
+    		cur.execute("SELECT fullname, city, proc, malp_word, pharmadollars, score, scoreptile FROM badt ORDER BY scoreptile DESC LIMIT 50;")
      	query_results = cur.fetchall()
      	cities = []
  	for result in query_results:
  			cities.append(dict(fullname=result[0],city=result[1],proc=result[2], pharmadollars=result[3], yelprating=result[4], malp_word=result[5]))
-	return render_template("index2.html", cities=cities)		
-
-
-@app.route('/index')
-def index():
- 	return render_template("index.html")
+	return render_template("index2.html", cities=cities)
 
 @app.route('/contact')
 def contact():
@@ -42,7 +45,7 @@ def contact():
 @app.route('/about')
 def about():
     return render_template("about.html")
-    
+
 # #make sure sql is up to date with correct csv to sql file		
  #@app.route('/db_fancy')
  #def cities_page_fancy():
@@ -95,15 +98,15 @@ def map():
  		
   	with db:
  		cur = db.cursor()
-    		cur.execute("SELECT fullname, city, yearspracticing, services_count, pharmadollars, score FROM week3 WHERE proc='%s' ORDER BY score DESC LIMIT 30;"%(sqlproc[user_selection]))
+    		cur.execute("SELECT fullname, city, yearspracticing, services_count, pharmadollars, score, scoreptile FROM week3 WHERE proc='%s' ORDER BY score DESC LIMIT 30;"%(sqlproc[user_selection]))
      	query_results = cur.fetchall()
      	cities = []
  	for result in query_results:
- 			cities.append(dict(fullname=result[0],city=result[1], yearspracticing=result[2], services_count=result[3], pharmadollars=result[4], score=result[5]))
+ 			cities.append(dict(fullname=result[0],city=result[1], yearspracticing=result[2], services_count=result[3], pharmadollars=result[4], score=result[5], scoreptile=result[6]))
 	return render_template("index.html", cities=cities)		
     
  		
- #to search!
+# #to search!
 @app.route('/search', methods=['get'])
 def search():
 	user_selection2 = request.args.get('docs')
@@ -111,22 +114,13 @@ def search():
 
 	with db:
 	    c=db.cursor()
-        c.execute("SELECT fullname, city, yearspracticing, pharmadollars, countproc, score, test FROM perc where fullname = '%s';"%(sqlsearch[user_selection2]))
+        c.execute("SELECT fullname, city, yearspracticing, pharmadollars, services_count, score, scoreptile, lastlower FROM perc where fullname = '%s';"%(sqlsearch[user_selection2]))
         query_results = c.fetchall()
         #print query_results
         names=[]
 	for result in query_results:
- 			names.append(dict(fullname=result[0],city=result[1], yearspracticing=result[2], pharmadollars=result[3], countproc=result[4], score=result[5], test=result[6]))
-	return render_template("search.html", names=names)		
-      
-# @app.route('/search', methods=['GET', 'POST'])
-# def search():
-#     if request.method == "POST":
-#         db = MySQLdb.connect(user="root", passwd="", db="cs324", host="127.0.0.1")
-#         c=db.cursor()
-#         c.executemany('''select * from student where name = %s''', request.form['search'])
-#         return render_template("results.html", records=c.fetchall())
-#     return render_template('search.html')
+ 			names.append(dict(fullname=result[0],city=result[1], yearspracticing=result[2], pharmadollars=result[3], countproc=result[4], score=result[5], scorereptile=result[6]))
+	return render_template("search.html", names=names)
 
 
 @app.route("/jquery")

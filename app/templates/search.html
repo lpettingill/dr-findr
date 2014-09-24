@@ -40,10 +40,12 @@ response.headers['Cache-Control'] = 'public, max-age=0'
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="/">dr-findr</a>
+          <a class="navbar-brand" href="/index">dr-findr</a>
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
+              <li><a href="/index2">procedure search</a></li>
+                        <li><a href="/drsearch">name search</a></li>
                        <li><a href="/slides">slides</a></li>
             <li><a href="/about">about</a></li>
             <li><a href="/contact">more info on lp</a></li>
@@ -58,76 +60,60 @@ response.headers['Cache-Control'] = 'public, max-age=0'
 
       <div class="starter-template.css">
         <h1>Need help finding a doctor?</h1>
-        <p class="lead">dr-findr brings a host of info together to help you find a good doctor...
-        <br>or avoid the bad ones.<br></p>
+        <p class="lead">dr-findr brings a host of info together to help you find a good doctor.<br></p>
 	
-	<form action='/makemap' methods="get">
-    <select class="selectpicker" name="procedures"> 
-<!--     <label for="originInput">Origin:</label> -->
-        <option value="Flu">Flu Shot</option>
-<!-- 		<option value="NoGo">Docs to avoid</option> ~~> -->
-        <option value="Allergy">Allergies, Triamcinolone acet inj</option>
-		<option value="Lens">Cataract surgery</option> 
-		<option value="Chest Xray">Chest Xray</option>
-		<option value="Flu">Chiropractic manipulation</option>
-        <option value="Colon">Colonoscopy and biopsy</option>        
-		<option value="CT Scan">CT head/brain w/o dye</option>
-        <option value="Electrocardiogram">EKG, complete</option>
-        <option value="EKG">EKG, report</option>
-		<option value="ED">Emergency dept visit</option>
-        <option value="Eyen">Eye exam, old patient</option>
-        <option value="Eyeo">Eye exam, new patient</option>
- 		<option value="Hearing">Hearing test</option>
-		<option value="HDD">Hospital discharge day</option>
-		<option value="Medic M">Medication management</option>		
-		<option value="NMR">Neuromuscular reeducation</option>		
-		<option value="Coccal">Pneumococcal vaccine</option>		
-        <option value="Psych">Psych diagnosis interview</option>
-        <option value="PT">PT eval</option>
-        <option value="Ear Wax">Remove impacted ear wax</option>
-    	<option value="Shoulder Surgery">Shoulder arthroscopy/surgery</option>
-		<option value="Thera Ex">Therapeutic exercises</option>		
-        <option value="Tissue">Tissue exam by pathologist</option>	
-		<option value="Nails">Trim nail(s)</option>		
-		<option value="Ultrasounds">Ultrasound therapy</option>		
-        <option value="Urine">Urinalysis nonauto w/o scope</option>                
-		<option value="Routine Veni">Venipuncture, routine</option>				
-		<option value="Xray ab">X-ray exam of abdomen</option>		
-		<option value="Xray ankle">X-ray exam of ankle</option>		
-		<option value="Xray foot">X-ray exam of foot</option>		
-		<option value="Xray shoulder">X-ray exam of shoulder</option>
-		<option value="Xray spine">X-ray exam of lower spine</option>										        
-<!--     	<option value="Pharma Dollars">Pharma Dollars</option> -->
-    </select>    </select>
-<button type="submit" class="btn btn-success">dr-findr</button>
-	</form>
-	
-	<form action='/search' methods="get">
-    <select class="selectpicker" name="docs"> 
+<!--	<form action='/makemap' methods="get">-->
+<!--    <select class="selectpicker" name="procedures"> -->
+<!--<!--     <label for="originInput">Origin:</label> -->
+<!--        <option value="Flu">Flu Shot</option>-->
+<!--<!-- 		<option value="NoGo">Docs to avoid</option> ~~> -->
+<!--        <option value="Allergy">Allergies, Triamcinolone acet inj</option>-->
+<!--		<option value="Lens">Cataract surgery</option> -->
+<!--		<option value="Chest Xray">Chest Xray</option>-->
+<!--		<option value="Flu">Chiropractic manipulation</option>-->
+<!--        <option value="Colon">Colonoscopy and biopsy</option>        -->
+<!--		<option value="CT Scan">CT head/brain w/o dye</option>-->
+<!--        <option value="Electrocardiogram">EKG, complete</option>-->
+<!--        <option value="EKG">EKG, report</option>-->
+<!--		<option value="ED">Emergency dept visit</option>-->
+<!--        <option value="Eyen">Eye exam, old patient</option>-->
+<!--        <option value="Eyeo">Eye exam, new patient</option>-->
+<!-- 		<option value="Hearing">Hearing test</option>-->
+<!--		<option value="HDD">Hospital discharge day</option>-->
+<!--		<option value="Medic M">Medication management</option>		-->
+<!--		<option value="NMR">Neuromuscular reeducation</option>		-->
+<!--		<option value="Coccal">Pneumococcal vaccine</option>		-->
+<!--        <option value="Psych">Psych diagnosis interview</option>-->
+<!--        <option value="PT">PT eval</option>-->
+<!--        <option value="Ear Wax">Remove impacted ear wax</option>-->
+<!--    	<option value="Shoulder Surgery">Shoulder arthroscopy/surgery</option>-->
+<!--		<option value="Thera Ex">Therapeutic exercises</option>		-->
+<!--        <option value="Tissue">Tissue exam by pathologist</option>	-->
+<!--		<option value="Nails">Trim nail(s)</option>		-->
+<!--		<option value="Ultrasounds">Ultrasound therapy</option>		-->
+<!--        <option value="Urine">Urinalysis nonauto w/o scope</option>                -->
+<!--		<option value="Routine Veni">Venipuncture, routine</option>				-->
+<!--		<option value="Xray ab">X-ray exam of abdomen</option>		-->
+<!--		<option value="Xray ankle">X-ray exam of ankle</option>		-->
+<!--		<option value="Xray foot">X-ray exam of foot</option>		-->
+<!--		<option value="Xray shoulder">X-ray exam of shoulder</option>-->
+<!--		<option value="Xray spine">X-ray exam of lower spine</option>										        -->
+<!--<!--     	<option value="Pharma Dollars">Pharma Dollars</option> -->
+<!--    </select>    </select>-->
+<!--<button type="submit" class="btn btn-success">dr-findr</button>-->
+<!--	</form>-->
 
-#need to change option value to something that can be typed
+</form>
+<form action='/search' methods="get">
+    <select class="selectpicker" name="docs">
+        
         <option value="ljc">CUBBA, LOUIS J.</option>
         <option value="jw">WONG, JULIE</option>
     </select>
-<button type="submit" class="btn btn-success">dr-search</button>
-	</form>
+    <button type="submit" class="btn btn-success">dr-search</button>
+</form>
 
-<!-- 
-<form action='/db_fancy' method="GET">
-    <select id="e1" name="procedure"> 
-              <label for="originInput">Origin:</label>
-        <option value="Flu">Flu</option>
-            ...
-		<option value="Chest Xray">Chest Xray</option>
-        <option value="Eye exam">Eye Exam</option>
-        <option value="Electrocardiogram">Electrocardiogram</option>
-    </select>
-	<button type="submit" name="query">
-    Table!
-    </button>
-	</form>
- -->
-        
+
       </div>
        <div class="row">
        <div class="col-xs-12">
@@ -135,7 +121,7 @@ response.headers['Cache-Control'] = 'public, max-age=0'
 <table class="table table-hover">
         <tr><th>Name</th><th>City</th><th>Years Experience</th><th>Pharma $</th><th># Proc</th><th>Percentile Ranking</th></tr>
     {% for name in names %}
-    <tr><td>{{ name['fullname'] }}</td><td>{{ name['city'] }}</td><td> {{ name['yearspracticing'] }}</td><td>{{ name['pharmadollars'] }}</td><td> {{ name['countproc'] }}</td><td>{{ name['test'] }}</td></tr>
+    <tr><td>{{ name['fullname'] }}</td><td>{{ name['city'] }}</td><td> {{ name['yearspracticing'] }}</td><td>{{ name['pharmadollars'] }}</td><td> {{ name['countproc'] }}</td><td>{{ name['score'] }}</td><td>{{ name['scoreptile'] }}</td></tr>
     {% endfor %}
     </table>
        </div>

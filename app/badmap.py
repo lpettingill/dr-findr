@@ -23,7 +23,7 @@ badscore = open("/Users/lindsaypettingill/Desktop/app/csv/badscore.csv")
 df = pd.read_csv(badscore)
       
 mymap = fo.Map(location=[37.7833, -122.4167], tiles='Stamen Toner',
-                   zoom_start=10)
+                   zoom_start=11)
 mymap.create_map(path='bad2.html')                  
 
 for x in range(len(df.latitude)):

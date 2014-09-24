@@ -1,314 +1,150 @@
-NATASHA AHMED,SAN JOSE,Admin influenza virus vac,no,,1,0.35017014
-RICHARD A. SILVER,SAN JOSE,Chiropractic manipulation,no,,4,28.446487
-GALINA NAYFELD,SAN FRANCISCO,Chiropractic manipulation,no,,5,38.446487
-NOEL M. CHIVERS,SAN JOSE,Chiropractic manipulation,no,,5,28.446487
-ANDREA G. ROBERTS,REDWOOD CITY,Emergency dept visit,no,,,367.51685
-JOSEPH L. CHAN,OAKLAND,Psy dx interview,yes,,,-97.26416
-ELWOOD L. KRONICK,WALNUT CREEK,Cancer screen w pelvic of breast exam,no,,,78.860641
-VICTORIA M. SNYDER,CONCORD,Psy dx interview,no,,,213.83733
-MENG S. LEE,SAN FRANCISCO,Eye exam & treatment,yes,,,-25.923874
-HEATHER A. COLBERT,SAN JOSE,Psy dx interview,no,,,1023.3347
-LUHUA CHENG,SAN JOSE,X-ray exam of lower spine,no,,,244.41878
-CHRISTOPHER W. BARTON,SAN FRANCISCO,Emergency dept visit,no,,,353.86298
-DAVID L. BEGERT,SANTA ROSA,Pneumococcal vaccine,no,,,50.566048
-RICHARD LEE,FREMONT,Pneumococcal vaccine,yes,,,-15.307869
-LAWRENCE L. CHAO,SAN FRANCISCO,Pneumococcal vaccine,yes,,,-0.30786896
-CAROLINE G. HELLINGS,SANTA ROSA,Pneumococcal vaccine,no,,,50.566048
-MICHAEL D. HOPE,SAN FRANCISCO,Chest x-ray,no,,,145.57196
-EUGENE KIM,MOUNTAIN VIEW,Remove impacted ear wax,no,,,78.400818
-RICHARD D. BALDWIN,SAN FRANCISCO,Medication management,no,,,294.04007
-CANDICE P. MCNEIL,PLEASANTON,Emergency dept visit,no,,,604.09265
-BRADLEY MACDOUGALL,PALO ALTO,Therapeutic exercises,no,,,59.834877
-KEVIN M. WONG,DALY CITY,Admin influenza virus vac,yes,,,0.35017014
-LISA D. GREEN,PORTOLA VALLEY,Pt evaluation,no,,,82.487328
-LLOYD J. KING,SAN FRANCISCO,Medication management,no,,,191.76666
-MARIA L. MARTINS,EMERYVILLE,Emergency dept visit,no,,,520.01685
-KENNETH P. MOSES,OAKLAND,Emergency dept visit,no,,,317.80017
-JOHN W. COPELAND,ANTIOCH,Urinalysis nonauto w/o scope,yes,,,10.933967
-WILLIS HUANG,SAN JOSE,X-ray exam of abdomen,no,,,48.725479
-TINA R. SINGH,FAIRFIELD,Admin influenza virus vac,no,,,44.873196
-JOHN D. ROUSE,SAN FRANCISCO,Medication management,no,,,296.62018
-SEAN WORMUTH,VALLEJO,Emergency dept visit,yes,,,82.516846
-LOUIS A. DIAZ,CONCORD,Psy dx interview,no,,,142.51231
-ANITA GILLIAM,PALO ALTO,Tissue exam by pathologist,no,,,127.14047
-BARBARA ERNY,SUNNYVALE,Eye exam new patient,no,,,285.94617
-SHAWN R. VAN BOCKEL,SAN JOSE,Chest x-ray,no,,,40.471527
-ASSOCIATED PATHOLOGY MEDICAL GROUP,LOS GATOS,Tissue exam by pathologist,no,,,58.069344
-SEAN Y. HAUGH,SAN JOSE,Psy dx interview,no,,,477.57837
-MICHAEL F. SACCO,CONCORD,X-ray exam of shoulder,no,,,59.263397
-PHILIP K. HURST,SAN JOSE,Emergency dept visit,no,,,303.5
-PAMELA DANIELS,SAN JOSE,Chiropractic manipulation,no,,,45.446487
-RICHARD C. LOTSCH,VALLEJO,Emergency dept visit,no,,,367.51685
-SUNIL A. BHOPALE,REDWOOD CITY,Emergency dept visit,no,,,367.51685
-CAROLINE PALMER,PALO ALTO,Pt evaluation,no,,,151.48734
-DAVID CHIN,FREMONT,X-ray exam of ankle,no,,,74.857498
-SHARON M. DITTMER,MILL VALLEY,Chiropractic manipulation,no,,,33.738152
-KEVIN MURRAY,SUNNYVALE,Triamcinolone acet inj NOS,no,,,10.633289
-LENNART MOLLER,SAN FRANCISCO,Medication management,no,,,329.71518
-MARGO V. BUDMAN,ROHNERT PARK,Pneumococcal vaccine,no,,,50.566048
-SUSAN RYU,PALO ALTO,Eye exam new patient,no,,,285.94617
-DAVID M. BALDINI,VALLEJO,Emergency dept visit,no,,,367.51685
-MAHWASH HIRMENDI,SAN JOSE,Emergency dept visit,no,,,547.51685
-ELLEN S. PESCOSOLIDO,VACAVILLE,Therapeutic exercises,no,,,59.29982
-EDWIN CHEN,SAN JOSE,Chiropractic manipulation,no,,,33.446487
-DAVID H. LEVINSON,RICHMOND,Emergency dept visit,no,,,213.34158
-RAQUELLE MARTINS,CASTRO VALLEY,Chiropractic manipulation,no,,,28.446487
-JENNIFER S. CHANG,OAKLAND,Emergency dept visit,no,,,367.51685
-KRISTINE A. REBIERO,OAKLAND,Emergency dept visit,no,,,303.69049
-AHMED M. SHALABI,SAN FRANCISCO,Anesth lens surgery,no,,,428.57123
-VINCENT W. TORNABENE,BURLINGAME,Emergency dept visit,no,,,267.94684
-EVELYN J. CHOW,HAYWARD,Emergency dept visit,no,,,367.51685
-DERALD L. SEID,SAN FRANCISCO,Remove impacted ear wax,yes,,,-9.6632919
-WILLIAM S. CHUNG,SAN FRANCISCO,Electrocardiogram report,yes,,,35.411442
-STEVEN HASSID,SAN MATEO,Electrocardiogram report,no,,,39.969883
-RISHI SHAHANI,FREMONT,Chiropractic manipulation,no,,,38.446487
-TARYN LAMM,MOUNTAIN VIEW,X-ray exam of ankle,no,,,45.311069
-FREDRIC GOUGH,FAIRFIELD,Emergency dept visit,no,,,492.88525
-KAREEN A. CARAGAN,FAIRFIELD,Therapeutic exercises,no,,,60.834877
-EDWARD LEIKEN,SOUTH SAN FRANCISCO,Emergency dept visit,no,,,367.51685
-MARTHA S. LOSCH,MENLO PARK,Psy dx interview,no,,,657.68286
-KEVIN T. WHITE,PETALUMA,Pt evaluation,yes,,,-32.512672
-JENNIFER R. AGLUBAT,FAIRFIELD,Pt evaluation,no,,,169.48734
-ALLISON GRANOT,PALO ALTO,Pt evaluation,no,,,151.48734
-GEORGE N. LENDARIS,NAPA,Ultrasound therapy,no,,,17.528782
-HEATHER H. ROSE,PALO ALTO,Therapeutic exercises,no,,,59.834877
-EDWARD SCHIAVONE,PALO ALTO,Pt evaluation,no,,,151.48734
-ZEV M. KAHN,CASTRO VALLEY,Remove impacted ear wax,no,,,81.5578
-GUY SHOCHAT,OAKLAND,Emergency dept visit,no,,,661.93481
-NGA V. PHAM,SAN JOSE,Routine venipuncture,yes,,,-8.0843792
-GREGORY L. BELCHER,SARATOGA,Routine venipuncture,no,,,41.5
-DEAN M. GENES,VALLEJO,Chest x-ray,no,,,294.13818
-FRANK RUIZ,REDWOOD CITY,Emergency dept visit,no,,,367.51685
-WALTER STULLMAN,OAKLAND,Electrocardiogram report,no,,,48.411442
-VINOD SHARMA,SAN PABLO,Medication management,no,,,150.83636
-SHERWIN WONG,DALY CITY,Therapeutic exercises,yes,,,-9.4651222
-DARRIN D. BERARDI,FAIRFIELD,Chiropractic manipulation,no,,,43.446487
-AMY S. THOMSEN,ANTIOCH,Electrocardiogram report,no,,,83.743568
-RITESH R. BHANDARI,OAKLAND,Emergency dept visit,no,,,367.51685
-DAVID KRAMER,SAN JOSE,X-ray exam of shoulder,no,,,62.614082
-SUSAN ZOBAC,MOUNTAIN VIEW,Pt evaluation,no,,,151.48734
-DAVID S. JOHNSON,SAN JOSE,Psy dx interview,no,,,1102.0614
-SAMUEL I. BARONOFSKY,OAKLAND,Chest x-ray,no,,,144.55486
-BRETT M. ELICKER,SAN FRANCISCO,Chest x-ray,no,,,69.393265
-MATTHEW LITTLEFIELD,PITTSBURG,Medication management,no,,,172.41193
-GRACE M. MENESES,WOODSIDE,Therapeutic exercises,no,,,27.834877
-TERI CHEW,SAN MATEO,Emergency dept visit,no,,,338.07684
-KARI L. ROBINSON,PALO ALTO,Therapeutic exercises,no,,,29.328705
-STEVEN BARTIS,FREMONT,Triamcinolone acet inj NOS,no,,,9.9619579
-MACEY ROSENTHAL,MARTINEZ,Medication management,no,,,377.50516
-CHRISTOPHER M. RYAN,BELMONT,Therapeutic exercises,no,,,39.834877
-KRAMMIE CHAN,OAKLAND,Ct head/brain w/o dye,yes,,,-104.01266
-KATHLEEN L. HORAN,SANTA ROSA,Admin influenza virus vac,yes,,,15.873196
-DAVID M. WOODHOUSE,VACAVILLE,Admin influenza virus vac,no,1018,,46.35017
-AMY C. DENNIS,OAKLAND,Emergency dept visit,no,,,367.51685
-JUN WU,SAN FRANCISCO,Chest x-ray,no,,,199.63818
-CHRISTINE S. GARTNER,SAN JOSE,Psy dx interview,no,,,942.34363
-TORBEN KRISTENSEN,MOUNTAIN VIEW,X-ray exam of foot,no,,,33.62928
-HO T. TAN,SAN FRANCISCO,Triamcinolone acet inj NOS,no,,,35.418442
-KELLY M. HALL,DANVILLE,Chiropractic manipulation,no,,,28.446487
-DAN-ANH T. NGUYEN,SAN JOSE,Cancer screen w pelvic of breast exam,yes,,,58.860641
-STEVEN H. LESSER,EL CERRITO,Emergency dept visit,no,,,404.71277
-ELIZABETH SCHNEIDER,MOUNTAIN VIEW,X-ray exam of shoulder,no,,,62.614082
-KAVITA V. MAMTORA,SANTA ROSA,Chest x-ray,no,,,294.13818
-COLLIN P. QUOCK,SAN FRANCISCO,Electrocardiogram report,no,,,33.076321
-TERESA Y. WONG,FREMONT,Chiropractic manipulation,no,,,33.446487
-ANTONIO DIMAANO,PALO ALTO,Therapeutic exercises,no,,,27.956161
-JOSHUA P. VANDERSCHAFF,SAN MATEO,Psy dx interview,no,,,285.9248
-WON S. YOO,OAKLAND,Chiropractic manipulation,no,,,43.676254
-CATHERINE M. MALLOUH,SAN JOSE,Psy dx interview,no,,,820.14258
-MARK K. SARKISIAN,SAN JOSE,Ct head/brain w/o dye,no,,,337.55258
-LAI D. NGUYEN,SAN JOSE,Chiropractic manipulation,yes,,,-14.393513
-NORCAL PATHOLOGY LAB,FREMONT,Tissue exam by pathologist,no,,,103.20915
-JENNIFER K. ROSSI,REDWOOD CITY,Emergency dept visit,no,,,517.35492
-DAVID L. LEVINE,SAN FRANCISCO,Medication management,no,,,153.0123
-DANIEL S. PINE,VALLEJO,Emergency dept visit,no,,,367.51685
-CHRISTIAN FOGLAR,SAN JOSE,Triamcinolone acet inj NOS,no,,,19.008289
-LINDA OGELVIE,PALO ALTO,Triamcinolone acet inj NOS,no,,,12.368067
-COLIN EAKIN,PALO ALTO,Triamcinolone acet inj NOS,no,,,9.9555569
-MARC NELSON,OAKLAND,Emergency dept visit,no,,,367.51685
-JOHN D. NOONAN,SAN JOSE,Chest x-ray,no,,,42.442429
-PAUL-ANDRE C. ABBOUD,OAKLAND,Emergency dept visit,no,,,367.51685
-HAN D. NGUYEN,SAN JOSE,Chiropractic manipulation,yes,,,8.4464874
-JEFFERY GREGORI,SAN CARLOS,Trim nail(s),no,,,34.769878
-ROBERT A. ROVNER,SAN RAMON,X-ray exam of lower spine,no,,,142.67731
-BERENICE PEREZ,OAKLAND,Electrocardiogram report,no,,,53.362968
-HARRIET C. SMITH,HAYWARD,Chest x-ray,no,,,92.304855
-KATHY M. NGUYEN,SAN JOSE,Chiropractic manipulation,yes,,,28.446487
-VUONG D. PHAM,SAN JOSE,Chiropractic manipulation,yes,,,-0.98351288
-THOMAS O. STODGEL,SAN MATEO,Urinalysis nonauto w/o scope,no,,,39.244911
-JIANQIU PAN,OAKLAND,Tissue exam by pathologist,no,,,225.9807
-MEGHAN E. BLAKE,SAN JOSE,X-ray exam of foot,no,,,33.22187
-CALVIN K. LEI,PLEASANTON,Pneumococcal vaccine,no,,,49.692131
-HARRISION J. ALTER,OAKLAND,Electrocardiogram report,no,,,51.062103
-ARI U. ETHERIDGE,SAN FRANCISCO,Medication management,no,,,167.73376
-JENNY E. MURASE,MOUNTAIN VIEW,Tissue exam by pathologist,no,,,93.104568
-DEBRA H. IWASAKI,PALO ALTO,Therapeutic exercises,no,,,59.834877
-JAMES W. STAVOSKY,DALY CITY,X-ray exam of foot,no,,,44.791306
-JAMES J. MCLEAN,VACAVILLE,Emergency dept visit,no,,,531.73877
-UPASNA M. SWIFT,OAKLAND,Electrocardiogram report,no,,,46.504894
-JOHN G. SORIANO,SAN FRANCISCO,Pt evaluation,yes,,,-13.679337
-JOLINE HEO,BRENTWOOD,Admin influenza virus vac,no,,,44.35017
-MARC-ALAN IWAHASHI,CUPERTINO,Chest x-ray,no,403,,69.152176
-ALEXANDER D. DOAN,SAN JOSE,Urinalysis nonauto w/o scope,no,,,5.7460003
-BRYAN CHO,MOUNTAIN VIEW,Triamcinolone acet inj NOS,no,,,9.794302
-YELENA SIRBILADZE,SAN JOSE,Psy dx interview,no,,,1100.8308
-YOON J. CHO,SANTA CLARA,Routine venipuncture,yes,,,-8.0843792
-MANIKA V. KAUSHAL,SAN JOSE,Urinalysis nonauto w/o scope,no,,,9.9339666
-ROBERT B. BURNS,SAN JOSE,Chest x-ray,no,,,237.58447
-RALPH C. WANG,OAKLAND,Emergency dept visit,no,,,1222.7836
-TARA K. EBBS,SAN JOSE,Emergency dept visit,no,,,360.66394
-HOU LEONG,FREMONT,Eye exam new patient,no,,,317.33978
-MICHAEL S. LYNN,OAKLAND,Electrocardiogram report,no,,,54.274605
-JENNIFER M. TENG,HAYWARD,Emergency dept visit,no,,,367.51685
-MARIANNA CAPONIGRO,OAKLAND,Chest x-ray,no,,,253.30487
-ANNA GOGGIANO,MENLO PARK,Ultrasound therapy,no,,,36.528782
-MARY ANN NAHMENS,SAN MATEO,Ultrasound therapy,no,,,17.528782
-STEVEN L. BALT,SAN RAFAEL,Medication management,yes,,,-112.76382
-JOYCE KIM,SUNNYVALE,Eye exam & treatment,yes,,,-30.923874
-VIRGINIA K. MOMMSEN,SAN FRANCISCO,Medication management,no,,,165.40302
-IVAN Y. LEE,HAYWARD,Urinalysis nonauto w/o scope,yes,,,-4.584219
-GWENDOLYN ROTHMAN,SAN FRANCISCO,Medication management,no,,,123.42618
-MARTIN KOEPPEL,RICHMOND,Medication management,no,,,219.77719
-VIRGINIA A. SAUER,WALNUT CREEK,Emergency dept visit,no,,,367.51685
-CARON R. AGHAREZA,SAN CARLOS,Emergency dept visit,no,,,303
-CLAUDIA S. KUZIS,MOUNTAIN VIEW,Triamcinolone acet inj NOS,no,,,7.3788137
-IVAN R. BURGOS,LOS GATOS,Electrocardiogram report,no,,,47.91568
-JULIE NG,PALO ALTO,Eye exam new patient,no,,,317.33978
-KATHRYN C. RILEY,SUNNYVALE,Chiropractic manipulation,no,,,28.446487
-AJIT P. SANDHU,FREMONT,Electrocardiogram report,yes,,,19.869213
-EILINA FEYGINA,SAN FRANCISCO,Chiropractic manipulation,no,,,28.446487
-WILLIAM E. BERLINGIERI,RICHMOND,Medication management,no,,,298.39731
-MICHAEL G. MEADE,SAN JOSE,Psy dx interview,no,,,1167.4291
-ROBERTA L. WONG,MENLO PARK,X-ray exam of ankle,no,,,44.196781
-MASAYASU KIHIRA,SAN MATEO,Chest x-ray,no,,,68.152176
-ZHI H. HUANG,OAKLAND,Admin influenza virus vac,no,,,27.101768
-MARK J. POPOVICH,SANTA ROSA,X-ray exam of ankle,no,,,59.196781
-GREGORY F. HOOPER,SUNNYVALE,Admin influenza virus vac,yes,,,-1.2873573
-LEWIS WEXLER,MENLO PARK,X-ray exam of foot,no,,,43.407059
-WANDA DOLMAGE-HEATH,BURLINGAME,Pt evaluation,no,,,80.487328
-MOSES B. GRAUBARD,OAKLAND,Emergency dept visit,no,,,320.82452
-DAWN S. KAHRS,WALNUT CREEK,Chiropractic manipulation,no,,,33.446487
-GREGORY E. CALL,DANVILLE,Chiropractic manipulation,no,,,28.446487
-MILAGROS A. GOMEZ,VACAVILLE,Emergency dept visit,no,,,526.90533
-RONALD L. LEON,ANTIOCH,Psy dx interview,yes,,,-47.26416
-VIET X. LE,SAN JOSE,Psy dx interview,no,,,1215.9669
-LUIS E. GARCIA,SANTA ROSA,X-ray exam of ankle,yes,,,-16.666664
-BARBARA YATES,SAN MATEO,Medication management,no,,,213.55109
-BOB NGUYEN,SAN JOSE,Chiropractic manipulation,yes,,,13.446487
-BETH C. KAPLAN,SAN FRANCISCO,Emergency dept visit,no,,,352.98798
-TRUC N. PHAM,SAN JOSE,Chiropractic manipulation,yes,,,3.4464874
-JOYCE I. HSIEH,DALY CITY,Eye exam & treatment,no,,,331.98523
-RAJ PAL,BERKELEY,Ultrasound therapy,no,,,17.528782
-R. R. PLATT,WALNUT CREEK,Electrocardiogram report,no,,,57.661442
-SUSAN J. SPENCER,SAN MATEO,Urinalysis nonauto w/o scope,no,,,39.244911
-MYLO H. MAGTOTO,OAKLAND,Chiropractic manipulation,no,,,30.839928
-KEVIN GERSTEN,FREMONT,Remove impacted ear wax,no,,,77.243851
-LORRE T. HENDERSON,FAIRFIELD,Remove impacted ear wax,no,,,87.5578
-TUCKER BIERBAUM,SANTA ROSA,Emergency dept visit,no,,,460.51685
-YENTING CHEN,BERKELEY,Emergency dept visit,yes,,,-198.48315
-JORN T. JENSEN,LOS GATOS,Chiropractic manipulation,no,,,28.446487
-VINCENT W. LAM,SAN FRANCISCO,Eye exam & treatment,no,,,314.92365
-RANDY D. PI,SAN JOSE,Emergency dept visit,no,,,367.51685
-LAURA M. TRACEWELL,PALO ALTO,Eye exam & treatment,no,,,264.07611
-BRUCE D. GAYNOR,SANTA ROSA,Eye exam & treatment,no,,,263.72363
-MARKUS T. LEONG,SOUTH SAN FRANCISCO,Emergency dept visit,no,,,266.0553
-EDWARD T. LEE,SAN FRANCISCO,Medication management,yes,,,21.525589
-ERIC ANDERSON,HAYWARD,Emergency dept visit,no,,,213.34158
-DAVID H. BERKELEY,LOS GATOS,Tissue exam by pathologist,no,,,222.9807
-MARK POPIL,FAIRFIELD,Electrocardiogram report,no,,,86.21946
-MICHAEL P. CHIN,SAN JOSE,Emergency dept visit,no,,,301.45972
-RENEE Y. HSIA,REDWOOD CITY,Emergency dept visit,no,,,353.63049
-ELIZABETH KWAN,OAKLAND,Emergency dept visit,no,,,407.12469
-THOMAS M. SWIFT,SAN FRANCISCO,Eye exam new patient,no,,,115.3398
-JERRY B. KIM,FAIRFIELD,Emergency dept visit,no,,,334.73187
-MICHAEL O'CONNOR,SAN FRANCISCO,Emergency dept visit,no,,,294.34158
-ALLEN J. MORINI,VALLEJO,Emergency dept visit,no,,,367.51685
-EDWIN CARLSON,SAINT HELENA,Emergency dept visit,no,,,428.87891
-ALAN J. GIANOTTI,BURLINGAME,Emergency dept visit,no,,,270.84338
-PETER J. PEREZ,SAN LEANDRO,Emergency dept visit,no,,,912.53577
-EUNICE S. LEE,SAN FRANCISCO,Anesth lens surgery,yes,,,-45.955994
-HAYDN H. LEUNG,SANTA CLARA,Emergency dept visit,no,,,367.51685
-ROBERT L. DOBROW,SAN FRANCISCO,Triamcinolone acet inj NOS,no,,,17.442574
-ROGER YANG,SAN JOSE,Emergency dept visit,no,,,367.51685
-DAVID C. PLECQUE,SAN JOSE,Emergency dept visit,no,,,367.51685
-TOSHI HIRAOKA,FAIRFIELD,Emergency dept visit,no,,,496.36432
-HIEN T. NGUYEN,SAN JOSE,Emergency dept visit,yes,,,82.516846
-HAMID SAJJADI,SAN JOSE,Eye exam & treatment,no,,,202.92363
-KIEU L. NGUYEN,SAN JOSE,Electrocardiogram report,yes,,,-14.043825
-BRETT S. NELSON,VALLEJO,Emergency dept visit,no,,,367.51685
-RALPH C. FENN,SAN FRANCISCO,Medication management,no,,,471.33096
-JONATHAN SMITH,SAN RAFAEL,Chiropractic manipulation,no,,,43.446487
-JEFF T. CHEN,BERKELEY,Electrocardiogram report,yes,,,5.0871048
-PRACHI C. JOG,SAN JOSE,Electrocardiogram report,no,,,52.076321
-VALERIE A. LEE,BELMONT,Neuromuscular reeducation,no,,,29.835636
-LEIGH S. KIMBERG,SAN FRANCISCO,Admin influenza virus vac,no,,,28.450169
-KENNETH GEE,SAN JOSE,Psy dx interview,no,,,892.26526
-PAULA M. TORRES-STEIN,HAYWARD,Chest x-ray,no,,,174.38329
-NICK G. COSTOUROS,PALO ALTO,X-ray exam of foot,no,,,50.474365
-GARY MISHKIN,SAINT HELENA,Emergency dept visit,no,,,530.8056
-PATRICK J. KEARNS,MOUNTAIN VIEW,Admin influenza virus vac,no,,,26.410172
-MARION R. KRAMER,HAYWARD,Cancer screen w pelvic of breast exam,yes,,,-31.139359
-JAIME O. CORTES,OAKLAND,Triamcinolone acet inj NOS,yes,1099,,-12.892602
-GRETCHEN THOMPSON,CASTRO VALLEY,Ultrasound therapy,no,,,37.528782
-VINO K. PALLI,SAN FRANCISCO,Emergency dept visit,no,,,425.31543
-AMY C. THOMSON,BERKELEY,Psy dx interview,no,,,125.54466
-DAVID C. DENNIS,FAIRFIELD,Emergency dept visit,no,,,373.03125
-VIRGINIA KO,PALO ALTO,Eye exam new patient,no,,,317.33978
-WILLIAM H. BIRDSONG,OAKLAND,Emergency dept visit,no,,,367.51685
-HELEN M. WONG,DALY CITY,Routine venipuncture,yes,,,-7.2625046
-SUEANNA S. WONG,DALY CITY,Pt evaluation,yes,,,-23.130852
-ANDY W. LEE,FAIRFIELD,Electrocardiogram report,no,,,86.919044
-NGHIA J. PHAN,SAN LEANDRO,Chiropractic manipulation,no,,,31.446487
-STEVEN H. SEGERSTROM,MARYSVILLE,Emergency dept visit,no,,,897.51685
-LETITIA M. HESHMAT,PALO ALTO,Chiropractic manipulation,no,,,43.446487
-LAMBERT H. CHEE,WALNUT CREEK,Electrocardiogram report,no,,,57.661442
-STEVEN SACKRIN,OAKLAND,Electrocardiogram report,no,,,48.862034
-ALAI ALVAREZ,SAN JOSE,Emergency dept visit,no,,,304.3606
-UZMA A. KHAN,PITTSBURG,Medication management,no,,,145.93784
-ELLIOT L. SNYDER,SAN MATEO,Emergency dept visit,no,,,335.51685
-MICHAEL G. RIDGEWAY,SANTA ROSA,Chiropractic manipulation,no,,,46.057953
-SHANDA M. FULLER,DANVILLE,Chiropractic manipulation,no,,,28.446487
-NEIL L. MARKUS,VALLEJO,Emergency dept visit,no,,,367.51685
-JOSEPH TANNOUS,SAN MATEO,Chiropractic manipulation,no,,,28.446487
-JENNIFER I. HARRIS,FAIRFIELD,Emergency dept visit,no,,,615.30994
-VICTOR C. KERENYI,HERCULES,Chiropractic manipulation,no,,,28.446487
-NEGAR NAVID,ALAMEDA,Chiropractic manipulation,no,,,33.446487
-ALLAN J. BRODY,BURLINGAME,Emergency dept visit,no,,,265.3042
-MELANIE R. WATTS,OAKLAND,Emergency dept visit,no,,,375.06128
-DAVID A. CHEN,BERKELEY,Emergency dept visit,yes,,,-198.48315
-BEN S. WONG,SAN JOSE,Chest x-ray,no,,,242.33447
-JOSEPH S. GOLDBERG,SAN FRANCISCO,Electrocardiogram report,no,,,36.497074
-DAVID MULL,PALO ALTO,Therapeutic exercises,no,,,28.166557
-ROBERT G. SLATER,SAN JOSE,Psy dx interview,no,,,1302.9043
-KEVIN S. FINNESEY,SAN MATEO,Triamcinolone acet inj NOS,no,,,25.478878
-LESLIE A. CAMPBELL,SAN FRANCISCO,Electrocardiogram report,no,,,28.411442
-KARIN H. MOLANDER,BURLINGAME,Emergency dept visit,no,,,264.97192
-MARC A. SWANSON,PALO ALTO,Eye exam new patient,no,,,317.33978
-OWEN M. LUM,SAN JOSE,Medication management,yes,,,-102.76382
-MICHAEL R. SATHY,MOUNTAIN VIEW,Triamcinolone acet inj NOS,no,,,11.826471
-LAURA PORTERFIELD,LOS GATOS,Therapeutic exercises,no,,,44.834877
-BETH J. MARX,OAKLAND,Chiropractic manipulation,no,,,33.392143
-MICHAEL B. WOLFE,LOS GATOS,Emergency dept visit,yes,,,-214.85158
-BAHAR NEHAWANDIAN,SAN JOSE,Chiropractic manipulation,no,,,28.446487
-ERIC D. ISAACS,SAN FRANCISCO,Emergency dept visit,no,,,353.31506
-CYNTHIA A. BOYD,ALAMEDA,Chiropractic manipulation,no,,,33.446487
-STEFANIE WEINSTEIN,SAN JOSE,Chest x-ray,no,,,69.111526
-GEMMA GUILLERMO,REDWOOD CITY,Psy dx interview,no,,,904.70471
-JENS W. KROMBACH,SAN FRANCISCO,Anesth lens surgery,no,,,634.70111
-MARC P. STEURER,SAN FRANCISCO,Anesth lens surgery,no,,,561.18683
-THOMAS T. CHOU,SAN JOSE,Tissue exam by pathologist,no,,,175.9807
-SIMON G. YU,SAN BRUNO,Chiropractic manipulation,no,,,28.446487
-TIN TIN TUN,MOUNTAIN VIEW,Tissue exam by pathologist,no,,,88.100082
-COLIN FEENEY,OAKLAND,Electrocardiogram report,no,,,50.790607
-MICHAEL B. STONE,OAKLAND,Electrocardiogram report,no,,,44.149605
-"MACHAON DIAGNOSTICS, INC.",OAKLAND,Routine venipuncture,no,,,17.353573
-DWIGHT D. GAGGERO,SAN MATEO,Emergency dept visit,yes,,,-216.22086
-VANDANA PATEL,SAN JOSE,Emergency dept visit,no,,,344.58704
-JONATHAN L. BARASH,SAN FRANCISCO,Admin influenza virus vac,no,,,27.539864
-STRPHEN J. TAYLOR,NAPA,Chiropractic manipulation,no,,,33.446487
-ALEXANDER HABIBIAN,PALO ALTO,Ct head/brain w/o dye,no,,,389.62369
-SUN S. LIN,FREMONT,Emergency dept visit,no,,,367.51685
-CHARLES V. MAGEE,SANTA ROSA,Emergency dept visit,no,,,460.51685
-CAMA C. GARCIA,SAN JOSE,Emergency dept visit,no,,,368.66394
-BRETT LEE,HAYWARD,Chest x-ray,yes,,,-15.028473
-LISA S. CHAN,SAN JOSE,Therapeutic exercises,yes,,,-4.3907814
+KATHLEEN L. HORAN,SANTA ROSA,Admin influenza virus vac,yes,,-10,1
+NATASHA AHMED,SAN JOSE,Admin influenza virus vac,no,,-5,2
+GREGORY F. HOOPER,SUNNYVALE,Admin influenza virus vac,yes,,2,15
+KEVIN M. WONG,DALY CITY,Admin influenza virus vac,yes,,-5,2
+HELEN EVANS,PALO ALTO,Anesth lens surgery,no,,-9,1
+MARC P. STEURER,SAN FRANCISCO,Anesth lens surgery,no,,-9,1
+AHMED M. SHALABI,SAN FRANCISCO,Anesth lens surgery,no,,-7,8
+JENS W. KROMBACH,SAN FRANCISCO,Anesth lens surgery,no,,-9,1
+JAMES P. HOWELL,SAN JOSE,Anesth lens surgery,no,,-7,8
+EUNICE S. LEE,SAN FRANCISCO,Anesth lens surgery,yes,,-3,30
+CHARLES WANG,PALO ALTO,Anesth lens surgery,no,,-9,1
+VICKI L. COE,WOODSIDE,Anesth lens surgery,no,,-8,4
+BRANDON T. GINIECZKI,SAN JOSE,Anesth lens surgery,no,,-8,4
+MARION R. KRAMER,HAYWARD,Cancer screen w pelvic of breast exam,yes,,-1,25
+DAN-ANH T. NGUYEN,SAN JOSE,Cancer screen w pelvic of breast exam,yes,,-7,1
+DEAN M. GENES,VALLEJO,Chest x-ray,no,,-9,1
+BRETT LEE,HAYWARD,Chest x-ray,yes,,1,11
+KAVITA V. MAMTORA,SANTA ROSA,Chest x-ray,no,,-9,1
+TRUC N. PHAM,SAN JOSE,Chiropractic manipulation,yes,,-1,1
+KATHY M. NGUYEN,SAN JOSE,Chiropractic manipulation,yes,,-6,1
+BOB NGUYEN,SAN JOSE,Chiropractic manipulation,yes,,-3,1
+LAI D. NGUYEN,SAN JOSE,Chiropractic manipulation,yes,,6,14
+HAN D. NGUYEN,SAN JOSE,Chiropractic manipulation,yes,,-2,1
+VUONG D. PHAM,SAN JOSE,Chiropractic manipulation,yes,,10,38
+ALEXANDER HABIBIAN,PALO ALTO,Ct head/brain w/o dye,no,,-9,1
+MARK K. SARKISIAN,SAN JOSE,Ct head/brain w/o dye,no,,-7,4
+KRAMMIE CHAN,OAKLAND,Ct head/brain w/o dye,yes,,-5,7
+AJIT P. SANDHU,FREMONT,Electrocardiogram report,yes,,-4,1
+KIEU L. NGUYEN,SAN JOSE,Electrocardiogram report,yes,,8,30
+JEFF T. CHEN,BERKELEY,Electrocardiogram report,yes,,-2,3
+WILLIAM S. CHUNG,SAN FRANCISCO,Electrocardiogram report,yes,,-7,1
+JENNIFER K. ROSSI,REDWOOD CITY,Emergency dept visit,no,,0,36
+RANDY D. PI,SAN JOSE,Emergency dept visit,no,,-8,3
+ELIZABETH KWAN,OAKLAND,Emergency dept visit,no,,-2,27
+VANDANA PATEL,SAN JOSE,Emergency dept visit,no,,-5,14
+AMY C. DENNIS,OAKLAND,Emergency dept visit,no,,-9,1
+EDWIN CARLSON,SAINT HELENA,Emergency dept visit,no,,-6,7
+MICHAEL P. CHIN,SAN JOSE,Emergency dept visit,no,,-2,27
+MICHAEL O'CONNOR,SAN FRANCISCO,Emergency dept visit,no,,-2,27
+SUNIL A. BHOPALE,REDWOOD CITY,Emergency dept visit,no,,-9,1
+DANIEL S. PINE,VALLEJO,Emergency dept visit,no,,-8,3
+CAMA C. GARCIA,SAN JOSE,Emergency dept visit,no,,-7,6
+MICHAEL B. WOLFE,LOS GATOS,Emergency dept visit,yes,,-1,31
+SEAN WORMUTH,VALLEJO,Emergency dept visit,yes,,-14,1
+ALLEN J. MORINI,VALLEJO,Emergency dept visit,no,,-9,1
+ALAI ALVAREZ,SAN JOSE,Emergency dept visit,no,,-2,27
+TOSHI HIRAOKA,FAIRFIELD,Emergency dept visit,no,,-1,31
+CHARLES V. MAGEE,SANTA ROSA,Emergency dept visit,no,,-1,31
+ERIC D. ISAACS,SAN FRANCISCO,Emergency dept visit,no,,-2,27
+YENTING CHEN,BERKELEY,Emergency dept visit,yes,,-4,19
+MELANIE R. WATTS,OAKLAND,Emergency dept visit,no,,-3,24
+PHILIP K. HURST,SAN JOSE,Emergency dept visit,no,,-1,31
+TARA K. EBBS,SAN JOSE,Emergency dept visit,no,,-9,1
+RITESH R. BHANDARI,OAKLAND,Emergency dept visit,no,,-8,3
+DAVID M. BALDINI,VALLEJO,Emergency dept visit,no,,-9,1
+FREDRIC GOUGH,FAIRFIELD,Emergency dept visit,no,,-1,31
+NEIL L. MARKUS,VALLEJO,Emergency dept visit,no,,-7,6
+JAMES J. MCLEAN,VACAVILLE,Emergency dept visit,no,,-2,27
+HIEN T. NGUYEN,SAN JOSE,Emergency dept visit,yes,,-14,1
+WILLIAM H. BIRDSONG,OAKLAND,Emergency dept visit,no,,-9,1
+FRANK RUIZ,REDWOOD CITY,Emergency dept visit,no,,-8,3
+MARC NELSON,OAKLAND,Emergency dept visit,no,,-9,1
+PAUL-ANDRE C. ABBOUD,OAKLAND,Emergency dept visit,no,,-8,3
+GUY SHOCHAT,OAKLAND,Emergency dept visit,no,,-3,24
+JENNIFER M. TENG,HAYWARD,Emergency dept visit,no,,-9,1
+JENNIFER I. HARRIS,FAIRFIELD,Emergency dept visit,no,,-4,19
+ANDREA G. ROBERTS,REDWOOD CITY,Emergency dept visit,no,,-9,1
+RICHARD C. LOTSCH,VALLEJO,Emergency dept visit,no,,-8,3
+RALPH C. WANG,OAKLAND,Emergency dept visit,no,,-1,31
+BETH C. KAPLAN,SAN FRANCISCO,Emergency dept visit,no,,-2,27
+JERRY B. KIM,FAIRFIELD,Emergency dept visit,no,,-1,31
+RENEE Y. HSIA,REDWOOD CITY,Emergency dept visit,no,,-5,14
+MOSES B. GRAUBARD,OAKLAND,Emergency dept visit,no,,-9,1
+DAVID A. CHEN,BERKELEY,Emergency dept visit,yes,,-2,27
+KRISTINE A. REBIERO,OAKLAND,Emergency dept visit,no,,-2,27
+STEVEN H. SEGERSTROM,MARYSVILLE,Emergency dept visit,no,,-7,6
+TUCKER BIERBAUM,SANTA ROSA,Emergency dept visit,no,,-1,31
+MILAGROS A. GOMEZ,VACAVILLE,Emergency dept visit,no,,-6,7
+SUN S. LIN,FREMONT,Emergency dept visit,no,,-9,1
+CHRISTOPHER W. BARTON,SAN FRANCISCO,Emergency dept visit,no,,-6,7
+DWIGHT D. GAGGERO,SAN MATEO,Emergency dept visit,yes,,-3,24
+EVELYN J. CHOW,HAYWARD,Emergency dept visit,no,,-9,1
+DAVID C. PLECQUE,SAN JOSE,Emergency dept visit,no,,-8,3
+GARY MISHKIN,SAINT HELENA,Emergency dept visit,no,,0,36
+MAHWASH HIRMENDI,SAN JOSE,Emergency dept visit,no,,-6,7
+EDWARD LEIKEN,SOUTH SAN FRANCISCO,Emergency dept visit,no,,-8,3
+VIRGINIA A. SAUER,WALNUT CREEK,Emergency dept visit,no,,-9,1
+KENNETH P. MOSES,OAKLAND,Emergency dept visit,no,,-1,31
+MARIA L. MARTINS,EMERYVILLE,Emergency dept visit,no,,-7,6
+BRETT S. NELSON,VALLEJO,Emergency dept visit,no,,-7,6
+CANDICE P. MCNEIL,PLEASANTON,Emergency dept visit,no,,-1,31
+HAYDN H. LEUNG,SANTA CLARA,Emergency dept visit,no,,-9,1
+ELLIOT L. SNYDER,SAN MATEO,Emergency dept visit,no,,-7,6
+DAVID C. DENNIS,FAIRFIELD,Emergency dept visit,no,,-3,24
+STEVEN H. LESSER,EL CERRITO,Emergency dept visit,no,,0,36
+CARON R. AGHAREZA,SAN CARLOS,Emergency dept visit,no,,0,36
+TERI CHEW,SAN MATEO,Emergency dept visit,no,,-6,7
+JENNIFER S. CHANG,OAKLAND,Emergency dept visit,no,,-9,1
+ROGER YANG,SAN JOSE,Emergency dept visit,no,,-8,3
+PETER J. PEREZ,SAN LEANDRO,Emergency dept visit,no,,-9,1
+VINO K. PALLI,SAN FRANCISCO,Emergency dept visit,no,,-1,31
+MENG S. LEE,SAN FRANCISCO,Eye exam & treatment,yes,,-2,5
+JOYCE KIM,SUNNYVALE,Eye exam & treatment,yes,,2,11
+JOYCE I. HSIEH,DALY CITY,Eye exam & treatment,no,,-7,1
+VINCENT W. LAM,SAN FRANCISCO,Eye exam & treatment,no,,-7,1
+JULIE NG,PALO ALTO,Eye exam new patient,no,,-9,1
+HOU LEONG,FREMONT,Eye exam new patient,no,,-4,10
+SUSAN RYU,PALO ALTO,Eye exam new patient,no,,-5,8
+MARC A. SWANSON,PALO ALTO,Eye exam new patient,no,,-8,4
+BARBARA ERNY,SUNNYVALE,Eye exam new patient,no,,-9,1
+VIRGINIA KO,PALO ALTO,Eye exam new patient,no,,-6,5
+JOHN D. ROUSE,SAN FRANCISCO,Medication management,no,,-6,1
+WILLIAM E. BERLINGIERI,RICHMOND,Medication management,no,,-2,7
+MACEY ROSENTHAL,MARTINEZ,Medication management,no,,-6,1
+EDWARD T. LEE,SAN FRANCISCO,Medication management,yes,,-5,2
+OWEN M. LUM,SAN JOSE,Medication management,yes,,2,24
+RICHARD D. BALDWIN,SAN FRANCISCO,Medication management,no,,-5,2
+STEVEN L. BALT,SAN RAFAEL,Medication management,yes,,-4,3
+RALPH C. FENN,SAN FRANCISCO,Medication management,no,,-2,7
+LENNART MOLLER,SAN FRANCISCO,Medication management,no,,-3,5
+RICHARD LEE,FREMONT,Pneumococcal vaccine,yes,,-2,26
+LAWRENCE L. CHAO,SAN FRANCISCO,Pneumococcal vaccine,yes,,2,48
+MARTHA S. LOSCH,MENLO PARK,Psy dx interview,no,,-6,3
+ROBERT G. SLATER,SAN JOSE,Psy dx interview,no,,-2,17
+SEAN Y. HAUGH,SAN JOSE,Psy dx interview,no,,-8,1
+JOSHUA P. VANDERSCHAFF,SAN MATEO,Psy dx interview,no,,-9,1
+JOSEPH L. CHAN,OAKLAND,Psy dx interview,yes,,-5,7
+HEATHER A. COLBERT,SAN JOSE,Psy dx interview,no,,-1,24
+VIET X. LE,SAN JOSE,Psy dx interview,no,,-2,17
+CATHERINE M. MALLOUH,SAN JOSE,Psy dx interview,no,,-5,7
+GEMMA GUILLERMO,REDWOOD CITY,Psy dx interview,no,,-3,13
+RONALD L. LEON,ANTIOCH,Psy dx interview,yes,,1,39
+DAVID S. JOHNSON,SAN JOSE,Psy dx interview,no,,-1,24
+CHRISTINE S. GARTNER,SAN JOSE,Psy dx interview,no,,-1,24
+YELENA SIRBILADZE,SAN JOSE,Psy dx interview,no,,-4,11
+KENNETH GEE,SAN JOSE,Psy dx interview,no,,-1,24
+MICHAEL G. MEADE,SAN JOSE,Psy dx interview,no,,-4,11
+SUEANNA S. WONG,DALY CITY,Pt evaluation,yes,,-3,6
+JOHN G. SORIANO,SAN FRANCISCO,Pt evaluation,yes,,1,19
+KEVIN T. WHITE,PETALUMA,Pt evaluation,yes,,-3,6
+DERALD L. SEID,SAN FRANCISCO,Remove impacted ear wax,yes,,-1,8
+NGA V. PHAM,SAN JOSE,Routine venipuncture,yes,,9,47
+HELEN M. WONG,DALY CITY,Routine venipuncture,yes,,0,7
+YOON J. CHO,SANTA CLARA,Routine venipuncture,yes,,2,18
+LISA S. CHAN,SAN JOSE,Therapeutic exercises,yes,,9,31
+SHERWIN WONG,DALY CITY,Therapeutic exercises,yes,,4,6
+JAIME O. CORTES,OAKLAND,Triamcinolone acet inj NOS,yes,1099,-1,1
+JOHN W. COPELAND,ANTIOCH,Urinalysis nonauto w/o scope,yes,,-7,1
+IVAN Y. LEE,HAYWARD,Urinalysis nonauto w/o scope,yes,,3,19
+LUIS E. GARCIA,SANTA ROSA,X-ray exam of ankle,yes,,1,41
