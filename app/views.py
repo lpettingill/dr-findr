@@ -120,7 +120,7 @@ def search():
 
 	with db:
 	    c=db.cursor()
-        c.execute("SELECT fullname, city, yearspracticing, pharmadollars, services_count, score, scoreptile FROM perc where fullname = '%s';"%(sqlsearch[user_selection2]))
+        c.execute("SELECT fullname, city, yearspracticing, pharmadollars, services_count, score, scoreptile FROM week3 where fullname = '%s';"%(sqlsearch[user_selection2]))
         query_results = c.fetchall()
         #print query_results
         names=[]
