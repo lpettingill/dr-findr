@@ -116,7 +116,7 @@ def map():
 @app.route('/search', methods=['get'])
 def search():
 	user_selection2 = request.args.get('docs')
-	sqlsearch={'ak':"AMIR KAYKHA" ,'jw':"JULIE WONG"}
+	sqlsearch={'ak':"AMIR KAYKHA" ,'tjh':"THOMAS J. HONRATH",'jw':"JULIE WONG"}
 
 	with db:
 	    c=db.cursor()
