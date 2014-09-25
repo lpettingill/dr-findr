@@ -55,8 +55,8 @@ def drsearch():
 @app.route('/makemap', methods=['get'])
 def map():
 	user_selection = request.args.get('procedures')
-	procedure={'Flu':"/home/ubuntu/dr-findr/app/csv/flu.csv", 'NoGo':"/Users/lindsaypettingill/Desktop/app/csv/bad.csv",'CT Scan':"/Users/lindsaypettingill/Desktop/app/csv/ct.csv",
-	'Chest Xray':"/Users/lindsaypettingill/Desktop/app/csv/xchest.csv", 'Lens':"/Users/lindsaypettingill/Desktop/app/csv/lens.csv", 'Cancer Screen':"/Users/lindsaypettingill/Desktop/app/csv/cancer.csv",
+	procedure={'Flu':"/home/ubuntu/dr-findr/app/csv/flu.csv", 'CT Scan':"/home/ubuntu/dr-findr/app/csv/ct.csv",
+	'Chest Xray':"/home/ubuntu/dr-findr/app/csv/xchest.csv", 'Lens':"/home/ubuntu/dr-findr/app/csv/lens.csv", 'Cancer Screen':"/home/ubuntu/dr-findr/app/csv/cancer.csv",
  	'Colon':"/Users/lindsaypettingill/Desktop/app/csv/colon.csv",'Electrocardiogram':"/Users/lindsaypettingill/Desktop/app/csv/ekgr.csv", 'EKG':"/Users/lindsaypettingill/Desktop/app/csv/ekgc.csv",
  	'ED':"/Users/lindsaypettingill/Desktop/app/csv/ed.csv", 'Eyen':"/Users/lindsaypettingill/Desktop/app/csv/eyenew.csv", 'Eyeo':"/Users/lindsaypettingill/Desktop/app/csv/eyeexam.csv", 
  	'Hearing':"/Users/lindsaypettingill/Desktop/app/csv/heartest.csv", 'HDD':"/Users/lindsaypettingill/Desktop/app/csv/hdd.csv", 'Medic M':"/Users/lindsaypettingill/Desktop/app/csv/mm.csv", 
