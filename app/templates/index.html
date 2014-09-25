@@ -62,7 +62,7 @@ response.headers['Cache-Control'] = 'public, max-age=0'
         <h1>Need help finding a doctor?</h1>
         <p class="lead">dr-findr brings a host of info together to help you find a <font color="blue"> GOOD </font>doctor...<br>or avoid the <font color="red"> BAD </font> ones.<br></p>
 	<form action='/makemap' methods="get">
-    <select class="selectpicker" name="procedures"> 
+    <select class="selectpicker" name="procedures" id="selection"> 
 <!--     <label for="originInput">Origin:</label> -->
         <option value="Flu">Flu Shot</option>
 <!-- 		<option value="NoGo">Docs to avoid</option> ~~> -->
@@ -110,7 +110,7 @@ response.headers['Cache-Control'] = 'public, max-age=0'
        </div>
        <div class="col-xs-8">
 <table class="table table-hover">
-        <tr><th>Name</th><th>City</th><th>Years Practicing</th><th>Number of Procedures</th><th>$ from Pharma</th><th>dr-findr Score</th><th>Percentile</th></tr>
+        <tr><th>Name</th><th>City</th><th>Years Practicing</th><th>Number of Procedures*</th><th>$ from Pharma</th><th>dr-findr Score</th><th>Percentile</th></tr>
     {% for city in cities %}
     <tr><td>{{ city['fullname'] }}</td><td>{{ city['city'] }}</td><td> {{ city['yearspracticing'] }}</td><td> {{ city['services_count'] }}</td><td>{{ city['pharmadollars'] }}</td><td>{{ city['score'] }}</td><td>{{ city['scoreptile'] }}</td></tr>
     {% endfor %}
@@ -118,7 +118,7 @@ response.headers['Cache-Control'] = 'public, max-age=0'
        </div>
 </div>
 
-<!--index has iframe pointing back to the map that i generate-->
+<font color="B8B8B8">*Number of procedures is for 2012. </font>
 
     </div><!-- /.container -->
 
@@ -126,6 +126,13 @@ response.headers['Cache-Control'] = 'public, max-age=0'
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+   <script src="../static/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function($) { 
+            $("#selection").val({{ user_selection|tojson }}); // set dropdown to curr value
+        });
     </script>
+    
   </body>
 </html>

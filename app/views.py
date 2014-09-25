@@ -54,8 +54,8 @@ def drsearch():
 @app.route('/makemap', methods=['get'])
 def map():
 	user_selection = request.args.get('procedures')
-	procedure={'Flu':"/home/ubuntu/dr-findr/app/csv/flu.csv", 'CT Scan':"/home/ubuntu/dr-findr/app/csv/ct.csv",
-	'Chest Xray':"/home/ubuntu/dr-findr/app/csv/xchest.csv", 'Lens':"/home/ubuntu/dr-findr/app/csv/lens.csv",
+	procedure={'Flu':"/Users/lindsaypettingill/Desktop/app/csv/flu.csv", 'CT Scan':"/home/ubuntu/dr-findr/app/csv/ct.csv",
+	'Chest Xray':"/home/ubuntu/dr-findr/app/csv/xchest.csv", 'Lens':"/Users/lindsaypettingill/Desktop/app/csv/lens.csv",
  	'Colon':"/home/ubuntu/dr-findr/app/csv/colon.csv",'Electrocardiogram':"/home/ubuntu/dr-findr/app/csv/ekgc.csv", 'EKG':"/home/ubuntu/dr-findr/app/csv/ekgr.csv",
  	'ED':"/home/ubuntu/dr-findr/app/csv/ed.csv", 'Eyen':"/home/ubuntu/dr-findr/app/csv/eyenew.csv", 'Eyeo':"/home/ubuntu/dr-findr/app/csv/eyeexam.csv", 
  	'Hearing':"/home/ubuntu/dr-findr/app/csv/hearing.csv", 'HDD':"/home/ubuntu/dr-findr/app/csv/hdd.csv", 'Medic M':"/home/ubuntu/dr-findr/app/csv/mm.csv", 
@@ -108,7 +108,7 @@ def map():
      	cities = []
  	for result in query_results:
  			cities.append(dict(fullname=result[0],city=result[1], yearspracticing=result[2], services_count=result[3], pharmadollars=result[4], score=result[5], scoreptile=result[6]))
-	return render_template("index.html", cities=cities)	
+	return render_template("index.html", user_selection=user_selection, cities=cities)	
  		
  #to search!
 @app.route('/search', methods=['get'])
