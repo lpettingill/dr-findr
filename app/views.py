@@ -57,7 +57,7 @@ def map():
 	user_selection = request.args.get('procedures')
 	procedure={'Flu':"/home/ubuntu/dr-findr/app/csv/flu.csv", 'CT Scan':"/home/ubuntu/dr-findr/app/csv/ct.csv",
 	'Chest Xray':"/home/ubuntu/dr-findr/app/csv/xchest.csv", 'Lens':"/home/ubuntu/dr-findr/app/csv/lens.csv",
- 	'Colon':"/home/ubuntu/dr-findr/app/csv/xchest.csv",'Electrocardiogram':"/home/ubuntu/dr-findr/app/csv/ekgr.csv", 'EKG':"/home/ubuntu/dr-findr/app/csv/ekgc.csv",
+ 	'Colon':"/home/ubuntu/dr-findr/app/csv/colon.csv",'Electrocardiogram':"/home/ubuntu/dr-findr/app/csv/ekgr.csv", 'EKG':"/home/ubuntu/dr-findr/app/csv/ekgc.csv",
  	'ED':"/home/ubuntu/dr-findr/app/csv/ed.csv", 'Eyen':"/home/ubuntu/dr-findr/app/csv/eyenew.csv", 'Eyeo':"/home/ubuntu/dr-findr/app/csv/eyeexam.csv", 
  	'Hearing':"/home/ubuntu/dr-findr/app/csv/heartest.csv", 'HDD':"/home/ubuntu/dr-findr/app/csv/hdd.csv", 'Medic M':"/home/ubuntu/dr-findr/app/csv/mm.csv", 
  	'NMR':"/home/ubuntu/dr-findr/app/csv/nm.csv", 'Coccal':"/home/ubuntu/dr-findr/app/csv/cocc.csv",'Psych':"/home/ubuntu/dr-findr/app/csv/psych.csv", 
