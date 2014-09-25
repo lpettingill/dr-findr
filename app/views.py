@@ -8,7 +8,6 @@ import pdb
 import pandas.io.sql as psql
 import MySQLdb as mys
 import numpy as np
-pyodbc.pooling = False
 
 db = mdb.connect(user="root", host="localhost", db="demo", charset='utf8')
 
@@ -30,9 +29,6 @@ def badtable():
  	for result in query_results:
  			cities.append(dict(fullname=result[0],city=result[1], pharmadollars=result[2], score=result[3], scoreptile=result[4]))
 	return render_template("index2.html", cities=cities)		
-	csr = cur.cursor()  
-	csr.close()
-	del csr
 
 @app.route('/index')
 def index():
@@ -112,10 +108,7 @@ def map():
      	cities = []
  	for result in query_results:
  			cities.append(dict(fullname=result[0],city=result[1], yearspracticing=result[2], services_count=result[3], pharmadollars=result[4], score=result[5], scoreptile=result[6]))
-	return render_template("index.html", cities=cities)		
-	csr = cur.cursor()  
-	csr.close()
-	del csr
+	return render_template("index.html", cities=cities)	
  		
  #to search!
 @app.route('/search', methods=['get'])
@@ -132,6 +125,3 @@ def search():
 	for result in query_results:
  			names.append(dict(fullname=result[0],city=result[1], yearspracticing=result[2], pharmadollars=result[3], services_count=result[4], score=result[5], scoreptile=result[6]))
 	return render_template("drsearch.html", names=names)
-	csr = cur.cursor()  
-	csr.close()
-	del csr
