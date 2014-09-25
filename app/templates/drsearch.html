@@ -40,11 +40,11 @@ response.headers['Cache-Control'] = 'public, max-age=0'
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="/index2">dr-findr</a>
+          <a class="navbar-brand" href="/index">dr-findr</a>
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-              <li><a href="/index">procedure search</a></li>
+              <li><a href="/index2">docs to avoid</a></li>
              <li><a href="/drsearch">name search</a></li>
 			 <li><a href="/slides">slides</a></li>
             <li><a href="/about">about</a></li>
@@ -82,9 +82,9 @@ response.headers['Cache-Control'] = 'public, max-age=0'
 <!--       <div class="col-xs-12">-->
 
 <table class="table table-hover">
-    <tr><th>Name</th><th>City</th><th>Years Experience</th><th>Pharma $</th><th># Proc</th><th>Percentile Ranking</th></tr>
+    <tr><th>Name</th><th>City</th><th>Years Practicing</th><th>$ from Pharma</th><th>Number of Procedures</th><th>Percentile Ranking</th></tr>
     {% for name in names %}
-    <tr><td>{{ name['fullname'] }}</td><td>{{ name['city'] }}</td><td> {{ name['yearspracticing'] }}</td><td>{{ name['pharmadollars'] }}</td><td> {{ name['countproc'] }}</td><td>{{ name['test'] }}</td></tr>
+    <tr><td>{{ name['fullname'] }}</td><td>{{ name['city'] }}</td><td> {{ name['yearspracticing'] }}</td><td>{{ name['pharmadollars'] }}</td><td> {{ name['services_count'] }}</td><td>{{ name['scoreptile'] }}</td></tr>
     {% endfor %}
 </table>
        </div>

@@ -14,29 +14,26 @@ db = mdb.connect(user="root", host="localhost", db="demo", charset='utf8')
 @app.route('/')
 def welcome():
 	return render_template("welcome.html")
-
-@app.route('/index')
-def index():
-    return render_template("index.html")
-
+	
 @app.route('/slides')
 def slides():
 	return render_template("slides.html")
-
-@app.route('/drsearch')
-def drsearch():
-    return render_template("drsearch.html")
-
+	
 @app.route('/index2')
 def badtable():
   	with db:
  		cur = db.cursor()
-    		cur.execute("SELECT fullname, city, proc, malp_word, pharmadollars, score, scoreptile FROM badt ORDER BY scoreptile DESC LIMIT 50;")
+    		cur.execute("SELECT fullname, city, pharmadollars, score, scoreptile FROM badt ORDER BY scoreptile DESC LIMIT 50;")
      	query_results = cur.fetchall()
      	cities = []
  	for result in query_results:
- 			cities.append(dict(fullname=result[0],city=result[1],proc=result[2], pharmadollars=result[3], yelprating=result[4], malp_word=result[5]))
-	return render_template("index2.html", cities=cities)
+ 			cities.append(dict(fullname=result[0],city=result[1], pharmadollars=result[2], score=result[3], scoreptile=result[4]))
+	return render_template("index2.html", cities=cities)		
+
+
+@app.route('/index')
+def index():
+ 	return render_template("index.html")
 
 @app.route('/contact')
 def contact():
@@ -46,6 +43,10 @@ def contact():
 def about():
     return render_template("about.html")
 
+@app.route('/drsearch')
+def drsearch():
+    return render_template("drsearch.html")    
+    
 # #make sure sql is up to date with correct csv to sql file		
  #@app.route('/db_fancy')
  #def cities_page_fancy():
@@ -53,8 +54,18 @@ def about():
 #map from my python code
 @app.route('/makemap', methods=['get'])
 def map():
-    user_selection = request.args.get('procedures')
-    procedure={'Flu':"/home/ubuntu/dr-findr/app/csv/flu.csv", 'NoGo':"/home/ubuntu/dr-findr/app/csv/bad.csv",'CT Scan':"/home/ubuntu/dr-findr/app/csv/ct.csv",'Chest Xray':"/home/ubuntu/dr-findr/app/csv/xchest.csv", 'Lens':"/home/ubuntu/dr-findr/app/csv/lens.csv",'Cancer Screen':"/home/ubuntu/dr-findr/app/csv/cancer.csv",'Colon':"/home/ubuntu/dr-findr/app/csv/colon.csv",'Electrocardiogram':"/home/ubuntu/dr-findr/app/csv/ekgr.csv",'EKG':"/home/ubuntu/dr-findr/app/csv/ekgc.csv",'ED':"/home/ubuntu/dr-findr/app/csv/ed.csv", 'Eyen':"/home/ubuntu/dr-findr/app/csv/eyenew.csv", 'Eyeo':"/home/ubuntu/dr-findr/app/csv/eyeexam.csv",'Hearing':"/home/ubuntu/dr-findr/app/csv/heartest.csv", 'HDD':"/home/ubuntu/dr-findr/app/csv/hdd.csv", 'Medic M':"/home/ubuntu/dr-findr/app/csv/mm.csv",'NMR':"/home/ubuntu/dr-findr/app/csv/nm.csv", 'Coccal':"/home/ubuntu/dr-findr/app/csv/cocc.csv",'Psych':"/home/ubuntu/dr-findr/app/csv/psych.csv",'PT':"/home/ubuntu/dr-findr/app/csv/pt.csv", 'Ear Wax':"/home/ubuntu/dr-findr/app/csv/earwax.csv",'Shoulder Surgery':"/home/ubuntu/dr-findr/app/csv/asurg.csv",'Thera Ex':"/home/ubuntu/dr-findr/app/csv/thex.csv",'Tissue':"/home/ubuntu/dr-findr/app/csv/tissue.csv",'Allergy':"/home/ubuntu/dr-findr/app/csv/triam.csv",'Nails':"/home/ubuntu/dr-findr/app/csv/nails.csv",'Ultrasounds':"/home/ubuntu/dr-findr/app/csv/ultrasound.csv",'Urine':"/home/ubuntu/dr-findr/app/csv/urine.csv",'Routine Veni':"/home/ubuntu/dr-findr/app/csv/veni.csv",'Xray ab':"/home/ubuntu/dr-findr/app/csv/xab.csv",'Xray ankle':"/home/ubuntu/dr-findr/app/csv/xankle.csv",'Xray foot':"/home/ubuntu/dr-findr/app/csv/xfoot.csv",'Xray spine':"/home/ubuntu/dr-findr/app/csv/xspine.csv",'Xray shoulder':"/home/ubuntu/dr-findr/app/csv/xshoulder.csv"}
+	user_selection = request.args.get('procedures')
+	procedure={'Flu':"/Users/lindsaypettingill/Desktop/app/csv/flu.csv", 'NoGo':"/Users/lindsaypettingill/Desktop/app/csv/bad.csv",'CT Scan':"/Users/lindsaypettingill/Desktop/app/csv/ct.csv",
+	'Chest Xray':"/Users/lindsaypettingill/Desktop/app/csv/xchest.csv", 'Lens':"/Users/lindsaypettingill/Desktop/app/csv/lens.csv", 'Cancer Screen':"/Users/lindsaypettingill/Desktop/app/csv/cancer.csv",
+ 	'Colon':"/Users/lindsaypettingill/Desktop/app/csv/colon.csv",'Electrocardiogram':"/Users/lindsaypettingill/Desktop/app/csv/ekgr.csv", 'EKG':"/Users/lindsaypettingill/Desktop/app/csv/ekgc.csv",
+ 	'ED':"/Users/lindsaypettingill/Desktop/app/csv/ed.csv", 'Eyen':"/Users/lindsaypettingill/Desktop/app/csv/eyenew.csv", 'Eyeo':"/Users/lindsaypettingill/Desktop/app/csv/eyeexam.csv", 
+ 	'Hearing':"/Users/lindsaypettingill/Desktop/app/csv/heartest.csv", 'HDD':"/Users/lindsaypettingill/Desktop/app/csv/hdd.csv", 'Medic M':"/Users/lindsaypettingill/Desktop/app/csv/mm.csv", 
+ 	'NMR':"/Users/lindsaypettingill/Desktop/app/csv/nm.csv", 'Coccal':"/Users/lindsaypettingill/Desktop/app/csv/cocc.csv",'Psych':"/Users/lindsaypettingill/Desktop/app/csv/psych.csv", 
+ 	'PT':"/Users/lindsaypettingill/Desktop/app/csv/pt.csv", 'Ear Wax':"/Users/lindsaypettingill/Desktop/app/csv/earwax.csv",'Shoulder Surgery':"/Users/lindsaypettingill/Desktop/app/csv/asurg.csv", 
+ 	'Thera Ex':"/Users/lindsaypettingill/Desktop/app/csv/thex.csv", 'Tissue':"/Users/lindsaypettingill/Desktop/app/csv/tissue.csv", 'Allergy':"/Users/lindsaypettingill/Desktop/app/csv/triam.csv",
+ 	'Nails':"/Users/lindsaypettingill/Desktop/app/csv/nails.csv",'Ultrasounds':"/Users/lindsaypettingill/Desktop/app/csv/ultrasound.csv",'Urine':"/Users/lindsaypettingill/Desktop/app/csv/urine.csv",
+ 	'Routine Veni':"/Users/lindsaypettingill/Desktop/app/csv/veni.csv",'Xray ab':"/Users/lindsaypettingill/Desktop/app/csv/xab.csv",'Xray ankle':"/Users/lindsaypettingill/Desktop/app/csv/xankle.csv",
+ 	'Xray foot':"/Users/lindsaypettingill/Desktop/app/csv/xfoot.csv",'Xray spine':"/Users/lindsaypettingill/Desktop/app/csv/xspine.csv",'Xray shoulder':"/Users/lindsaypettingill/Desktop/app/csv/xshoulder.csv"}	
 
 	fluimport = open(procedure[request.args["procedures"]])
 	#print procedure[request.args["procedures"]]
@@ -69,12 +80,17 @@ def map():
  			long=(df.longitude[x])
  			name=(df.fullname[x])
  			scale=(df.score[x])*30.0
+ 			bad=(df.bad[x])
+			badscale=df.bad[x]*500
  			if np.isnan(scale):
  				continue
- 			mymap.circle_marker(location=[lat,long], popup=(name),radius=scale, fill_color='#3186cc')
+ 			if bad==1:		
+				mymap.circle_marker(location=[lat,long], popup=(name),radius=badscale, fill_color='#f00')
+			else:
+				mymap.circle_marker(location=[lat,long], popup=(name),radius=scale, fill_color='#0000FF')
  		except:
  			continue	
- 		mymap.create_map(path='app/static/test.html')
+ 	mymap.create_map(path='app/static/test.html')
  		
 #  to load sql tables with maps!
  	sqlproc={'Flu':"Admin influenza virus vac", 'CT Scan':"Ct head/brain w/o dye",
@@ -96,7 +112,7 @@ def map():
 	return render_template("index.html", cities=cities)		
     
  		
-# #to search!
+ #to search!
 @app.route('/search', methods=['get'])
 def search():
 	user_selection2 = request.args.get('docs')
@@ -104,14 +120,13 @@ def search():
 
 	with db:
 	    c=db.cursor()
-        c.execute("SELECT fullname, city, yearspracticing, pharmadollars, services_count, score, scoreptile, lastlower FROM perc where fullname = '%s';"%(sqlsearch[user_selection2]))
+        c.execute("SELECT fullname, city, yearspracticing, pharmadollars, services_count, score, scoreptile FROM perc where fullname = '%s';"%(sqlsearch[user_selection2]))
         query_results = c.fetchall()
         #print query_results
         names=[]
 	for result in query_results:
- 			names.append(dict(fullname=result[0],city=result[1], yearspracticing=result[2], pharmadollars=result[3], countproc=result[4], score=result[5], scorereptile=result[6]))
-	return render_template("search.html", names=names)
-
+ 			names.append(dict(fullname=result[0],city=result[1], yearspracticing=result[2], pharmadollars=result[3], services_count=result[4], score=result[5], scoreptile=result[6]))
+	return render_template("drsearch.html", names=names)
 
 @app.route("/jquery")
 def index_jquery():
