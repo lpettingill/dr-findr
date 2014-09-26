@@ -8,6 +8,7 @@ import pdb
 import pandas.io.sql as psql
 import MySQLdb as mys
 import numpy as np
+import sys, os
 
 db = mdb.connect(user="root", host="localhost", db="demo", charset='utf8')
 
@@ -55,17 +56,17 @@ def drsearch():
 @app.route('/makemap', methods=['get'])
 def map():
 	user_selection = request.args.get('procedures')
-	procedure={'Flu':"/Users/lindsaypettingill/Desktop/app/csv/flu.csv", 'CT Scan':"/home/ubuntu/dr-findr/app/csv/ct.csv",
-	'Chest Xray':"/home/ubuntu/dr-findr/app/csv/xchest.csv", 'Lens':"/Users/lindsaypettingill/Desktop/app/csv/lens.csv",
- 	'Colon':"/home/ubuntu/dr-findr/app/csv/colon.csv",'Electrocardiogram':"/home/ubuntu/dr-findr/app/csv/ekgc.csv", 'EKG':"/home/ubuntu/dr-findr/app/csv/ekgr.csv",
- 	'ED':"/home/ubuntu/dr-findr/app/csv/ed.csv", 'Eyen':"/home/ubuntu/dr-findr/app/csv/eyenew.csv", 'Eyeo':"/home/ubuntu/dr-findr/app/csv/eyeexam.csv", 
- 	'Hearing':"/home/ubuntu/dr-findr/app/csv/hearing.csv", 'HDD':"/home/ubuntu/dr-findr/app/csv/hdd.csv", 'Medic M':"/home/ubuntu/dr-findr/app/csv/mm.csv", 
- 	'NMR':"/home/ubuntu/dr-findr/app/csv/nm.csv", 'Coccal':"/home/ubuntu/dr-findr/app/csv/cocc.csv",'Psych':"/home/ubuntu/dr-findr/app/csv/psych.csv", 
- 	'PT':"/home/ubuntu/dr-findr/app/csv/pt.csv", 'Ear Wax':"/home/ubuntu/dr-findr/app/csv/earwax.csv",'Shoulder Surgery':"/home/ubuntu/dr-findr/app/csv/asurg.csv", 
- 	'Thera Ex':"/home/ubuntu/dr-findr/app/csv/thex.csv", 'Tissue':"/home/ubuntu/dr-findr/app/csv/tissue.csv", 'Allergy':"/home/ubuntu/dr-findr/app/csv/triam.csv",
- 	'Nails':"/home/ubuntu/dr-findr/app/csv/nails.csv",'Ultrasounds':"/home/ubuntu/dr-findr/app/csv/ultrasound.csv",'Urine':"/home/ubuntu/dr-findr/app/csv/urine.csv",
- 	'Routine Veni':"/home/ubuntu/dr-findr/app/csv/veni.csv",'Xray ab':"/home/ubuntu/dr-findr/app/csv/xab.csv",'Xray ankle':"/home/ubuntu/dr-findr/app/csv/xankle.csv",
- 	'Xray foot':"/home/ubuntu/dr-findr/app/csv/xfoot.csv",'Xray spine':"/home/ubuntu/dr-findr/app/csv/xspine.csv",'Xray shoulder':"/home/ubuntu/dr-findr/app/csv/xshoulder.csv"}	
+	procedure={'Flu':"app/csv/flu.csv", 'CT Scan':"app/csv/ct.csv",
+	'Chest Xray':"app/csv/xchest.csv", 'Lens':"app/csv/lens.csv",
+ 	'Colon':"app/csv/colon.csv",'Electrocardiogram':"app/csv/ekgc.csv", 'EKG':"app/csv/ekgr.csv",
+ 	'ED':"app/csv/ed.csv", 'Eyen':"app/csv/eyenew.csv", 'Eyeo':"app/csv/eyeexam.csv", 
+ 	'Hearing':"app/csv/hearing.csv", 'HDD':"app/csv/hdd.csv", 'Medic M':"app/csv/mm.csv", 
+ 	'NMR':"app/csv/nm.csv", 'Coccal':"app/csv/cocc.csv",'Psych':"app/csv/psych.csv", 
+ 	'PT':"app/csv/pt.csv", 'Ear Wax':"app/csv/earwax.csv",'Shoulder Surgery':"app/csv/asurg.csv", 
+ 	'Thera Ex':"app/csv/thex.csv", 'Tissue':"app/csv/tissue.csv", 'Allergy':"app/csv/triam.csv",
+ 	'Nails':"app/csv/nails.csv",'Ultrasounds':"app/csv/ultrasound.csv",'Urine':"app/csv/urine.csv",
+ 	'Routine Veni':"app/csv/veni.csv",'Xray ab':"app/csv/xab.csv",'Xray ankle':"app/csv/xankle.csv",
+ 	'Xray foot':"app/csv/xfoot.csv",'Xray spine':"app/csv/xspine.csv",'Xray shoulder':"app/csv/xshoulder.csv"}	
 
 	fluimport = open(procedure[request.args["procedures"]])
 	#print procedure[request.args["procedures"]]
