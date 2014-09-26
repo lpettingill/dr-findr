@@ -56,7 +56,7 @@ def drsearch():
 @app.route('/makemap', methods=['get'])
 def map():
 	user_selection = request.args.get('procedures')
-	procedure={'Flu':"app/csv/flu.csv", 'CT Scan':"app/csv/ct.csv", 'Chiro':"app/csv/chiro.csv"
+	procedure={'Flu':"app/csv/flu.csv", 'CT Scan':"app/csv/ct.csv", 'Chiro':"app/csv/chiro2.csv"
 	'Chest Xray':"app/csv/xchest.csv", 'Lens':"app/csv/lens.csv",
  	'Colon':"app/csv/colon.csv",'Electrocardiogram':"app/csv/ekgc.csv", 'EKG':"app/csv/ekgr.csv",
  	'ED':"app/csv/ed.csv", 'Eyen':"app/csv/eyenew.csv", 'Eyeo':"app/csv/eyeexam.csv", 
