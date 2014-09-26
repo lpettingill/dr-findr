@@ -93,7 +93,7 @@ def map():
  	mymap.create_map(path='app/templates/test.html')
  		
 #  to load sql tables with maps!
- 	sqlproc={'Flu':"Admin influenza virus vac", 'CT Scan':"Ct head/brain w/o dye",
+ 	sqlproc={'Flu':"Admin influenza virus vac", 'CT Scan':"Ct head/brain w/o dye", 'Chiro':"Chiropractic manipulation",
 	'Chest Xray':"Chest x-ray", 'Lens':"Anesth lens surgery", 'Cancer Screen':"Cancer screen w pelvic of breast exam", 'Colon':"Colonoscopy and biopsy",'Electrocardiogram':"Electrocardiogram report", 'EKG':"Electrocardiogram complete",
  	'ED':"Emergency dept visit", 'Eyen':"Eye exam new patient", 'Eyeo':"Eye exam & treatment", 'Hearing':"Comprehensive hearing test", 'HDD':"Hospital discharge day", 'Medic M':"Medication management", 
  	'NMR':"Neuromuscular reeducation", 'Coccal':"Pneumococcal vaccine",'Psych':"Psy dx interview", 'PT':"Pt evaluation", 'Ear Wax':"Remove impacted ear wax",'Shoulder Surgery':"Shoulder arthroscopy/surgery", 
