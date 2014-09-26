@@ -1,4 +1,4 @@
-from flask import render_template, jsonify, request
+from flask import render_template, jsonify, request, redirect, url_for
 from app import app
 import pymysql as mdb
 #import maps 
@@ -32,8 +32,9 @@ def badtable():
 
 @app.route('/index')
 def index():
- 	return render_template("index.html")
-
+	return render_template("index.html",user_selection='Flu')
+	#return redirect(url_for('.makemap'),procedures='Flu')
+	
 @app.route('/contact')
 def contact():
     return render_template("contact.html")
@@ -89,7 +90,7 @@ def map():
 				mymap.circle_marker(location=[lat,long], popup=(name),radius=scale, fill_color='#0000FF')
  		except:
  			continue	
- 	mymap.create_map(path='app/static/test.html')
+ 	mymap.create_map(path='app/templates/test.html')
  		
 #  to load sql tables with maps!
  	sqlproc={'Flu':"Admin influenza virus vac", 'CT Scan':"Ct head/brain w/o dye",
@@ -109,6 +110,10 @@ def map():
  	for result in query_results:
  			cities.append(dict(fullname=result[0],city=result[1], yearspracticing=result[2], services_count=result[3], pharmadollars=result[4], score=result[5], scoreptile=result[6]))
 	return render_template("index.html", user_selection=user_selection, cities=cities)	
+
+@app.route('/makemap2')
+def help():
+	return render_template('test.html')
  		
  #to search!
 @app.route('/search', methods=['get'])
