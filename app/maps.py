@@ -24,7 +24,7 @@ df = pd.read_csv(fluimport)
       
 mymap = fo.Map(location=[37.7833, -122.4167], tiles='Stamen Toner',
                    zoom_start=11)
-mymap.create_map(path='test.html')                  
+mymap.create_map(path='flu2.html')                  
 
 for x in range(len(df.latitude)):
 	try:
@@ -40,4 +40,4 @@ for x in range(len(df.latitude)):
 			mymap.circle_marker(location=[lat,long], popup=(name),radius=scale, fill_color='#2ca25f')
 	except:
 		continue
-mymap.create_map(path='flu.html')
+mymap.create_map(path='flu2.html')
