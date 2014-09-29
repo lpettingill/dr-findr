@@ -75,7 +75,7 @@ def map():
 	mymap = fo.Map(location=[37.7341003,-122.114853], tiles='Stamen Toner',
                    zoom_start=10)	
  	for x in range(len(df.latitude)):
- 		`try:
+ 		try:
  			lat=(df.latitude[x])
  			long=(df.longitude[x])
  			name=(df.fullname[x])
