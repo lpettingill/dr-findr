@@ -30,7 +30,8 @@ def badtable():
  	for result in query_results:
  			cities.append(dict(fullname=result[0],city=result[1], pharmadollars=result[2], score=result[3], scoreptile=result[4]))
 	return render_template("index2.html", cities=cities)		
-
+	db.close()
+	
 @app.route('/index')
 def index():
 	return render_template("index.html",user_selection='Flu')
@@ -101,7 +102,8 @@ def map():
  	'Nails':"Trim nail(s)",'Ultrasounds':"Ultrasound therapy",'Urine':"Urinalysis nonauto w/o scope",
  	'Routine Veni':"Routine venipuncture",'Xray ab':"X-ray exam of abdomen",'Xray ankle':"X-ray exam of ankle",
  	'Xray foot':"X-ray exam of foot",'Xray spine':"X-ray exam of lower spine",'Xray shoulder':"X-ray exam of shoulder"}	
- 		
+
+db = mdb.connect(user="root", host="localhost", db="demo", charset='utf8')		
   	with db:
  		cur = db.cursor()
     		cur.execute("SELECT fullname, city, yearspracticing, services_count, pharmadollars, score, scoreptile FROM week3 WHERE proc='%s' ORDER BY score DESC LIMIT 30;"%(sqlproc[user_selection]))
@@ -110,7 +112,8 @@ def map():
  	for result in query_results:
  			cities.append(dict(fullname=result[0],city=result[1], yearspracticing=result[2], services_count=result[3], pharmadollars=result[4], score=result[5], scoreptile=result[6]))
 	return render_template("index.html", user_selection=user_selection, cities=cities)	
-
+	db.close()
+	
 @app.route('/makemap2')
 def help():
 	return render_template('test.html')
@@ -121,6 +124,7 @@ def search():
 	user_selection2 = request.args.get('docs')
 	sqlsearch={'ak':"AMIR KAYKHA" ,'tjh':"THOMAS J. HONRATH",'jw':"JULIE WONG"}
 
+db = mdb.connect(user="root", host="localhost", db="demo", charset='utf8')
 	with db:
 	    c=db.cursor()
         c.execute("SELECT fullname, city, yearspracticing, pharmadollars, services_count, score, scoreptile FROM week3 where fullname = '%s';"%(sqlsearch[user_selection2]))
@@ -130,3 +134,4 @@ def search():
 	for result in query_results:
  			names.append(dict(fullname=result[0],city=result[1], yearspracticing=result[2], pharmadollars=result[3], services_count=result[4], score=result[5], scoreptile=result[6]))
 	return render_template("drsearch.html", names=names)
+	db.close()
