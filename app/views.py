@@ -49,9 +49,6 @@ def about():
 def drsearch():
     return render_template("drsearch.html")    
     
-# #make sure sql is up to date with correct csv to sql file		
- #@app.route('/db_fancy')
- #def cities_page_fancy():
 
 #map from my python code
 @app.route('/makemap', methods=['get'])
@@ -103,7 +100,6 @@ def map():
  	'Routine Veni':"Routine venipuncture",'Xray ab':"X-ray exam of abdomen",'Xray ankle':"X-ray exam of ankle",
  	'Xray foot':"X-ray exam of foot",'Xray spine':"X-ray exam of lower spine",'Xray shoulder':"X-ray exam of shoulder"}	
 
-db = mdb.connect(user="root", host="localhost", db="demo", charset='utf8')		
   	with db:
  		cur = db.cursor()
     		cur.execute("SELECT fullname, city, yearspracticing, services_count, pharmadollars, score, scoreptile FROM week3 WHERE proc='%s' ORDER BY score DESC LIMIT 30;"%(sqlproc[user_selection]))
@@ -122,9 +118,8 @@ def help():
 @app.route('/search', methods=['get'])
 def search():
 	user_selection2 = request.args.get('docs')
-	sqlsearch={'ak':"AMIR KAYKHA" ,'tjh':"THOMAS J. HONRATH",'jw':"JULIE WONG"}
+	sqlsearch={'ak':"AMIR KAYKHA" ,'tjh':"THOMAS J. HONRATH",'rjc':"ROBERT J. COLVIN",'jw':"JULIE WONG"}
 
-db = mdb.connect(user="root", host="localhost", db="demo", charset='utf8')
 	with db:
 	    c=db.cursor()
         c.execute("SELECT fullname, city, yearspracticing, pharmadollars, services_count, score, scoreptile FROM week3 where fullname = '%s';"%(sqlsearch[user_selection2]))
