@@ -30,7 +30,6 @@ def badtable():
  	for result in query_results:
  			cities.append(dict(fullname=result[0],city=result[1], pharmadollars=result[2], score=result[3], scoreptile=result[4]))
 	return render_template("index2.html", cities=cities)		
-	db.close()
 	
 @app.route('/index')
 def index():
@@ -108,7 +107,6 @@ def map():
  	for result in query_results:
  			cities.append(dict(fullname=result[0],city=result[1], yearspracticing=result[2], services_count=result[3], pharmadollars=result[4], score=result[5], scoreptile=result[6]))
 	return render_template("index.html", user_selection=user_selection, cities=cities)	
-	db.close()
 	
 @app.route('/makemap2')
 def help():
@@ -129,4 +127,3 @@ def search():
 	for result in query_results:
  			names.append(dict(fullname=result[0],city=result[1], yearspracticing=result[2], pharmadollars=result[3], services_count=result[4], score=result[5], scoreptile=result[6]))
 	return render_template("drsearch.html", names=names)
-	db.close()
