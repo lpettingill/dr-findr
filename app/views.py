@@ -10,8 +10,6 @@ import MySQLdb as mys
 import numpy as np
 import sys, os
 
-db = mdb.connect(user="root", host="localhost", db="demo", charset='utf8')
-
 @app.route('/')
 def welcome():
 	return render_template("welcome.html")
@@ -22,6 +20,7 @@ def slides():
 	
 @app.route('/index2')
 def badtable():
+	db = mdb.connect(user="root", host="localhost", db="demo", charset='utf8')
   	with db:
  		cur = db.cursor()
     		cur.execute("SELECT fullname, city, pharmadollars, score, scoreptile FROM badt ORDER BY scoreptile DESC LIMIT 50;")
@@ -29,6 +28,7 @@ def badtable():
      	cities = []
  	for result in query_results:
  			cities.append(dict(fullname=result[0],city=result[1], pharmadollars=result[2], score=result[3], scoreptile=result[4]))
+	db.close()
 	return render_template("index2.html", cities=cities)		
 	
 @app.route('/index')
@@ -90,6 +90,7 @@ def map():
  	mymap.create_map(path='app/templates/test.html')
  		
 #  to load sql tables with maps!
+ 	db = mdb.connect(user="root", host="localhost", db="demo", charset='utf8')
  	sqlproc={'Flu':"Admin influenza virus vac", 'CT Scan':"Ct head/brain w/o dye", 'Chiro':"Chiropractic manipulation",
 	'Chest Xray':"Chest x-ray", 'Lens':"Anesth lens surgery", 'Cancer Screen':"Cancer screen w pelvic of breast exam", 'Colon':"Colonoscopy and biopsy",'Electrocardiogram':"Electrocardiogram report", 'EKG':"Electrocardiogram complete",
  	'ED':"Emergency dept visit", 'Eyen':"Eye exam new patient", 'Eyeo':"Eye exam & treatment", 'Hearing':"Comprehensive hearing test", 'HDD':"Hospital discharge day", 'Medic M':"Medication management", 
@@ -106,6 +107,7 @@ def map():
      	cities = []
  	for result in query_results:
  			cities.append(dict(fullname=result[0],city=result[1], yearspracticing=result[2], services_count=result[3], pharmadollars=result[4], score=result[5], scoreptile=result[6]))
+	db.close()
 	return render_template("index.html", user_selection=user_selection, cities=cities)	
 	
 @app.route('/makemap2')
@@ -115,6 +117,7 @@ def help():
  #to search!
 @app.route('/search', methods=['get'])
 def search():
+	db = mdb.connect(user="root", host="localhost", db="demo", charset='utf8')
 	user_selection2 = request.args.get('docs')
 	sqlsearch={'ak':"AMIR KAYKHA" ,'tjh':"THOMAS J. HONRATH",'rjc':"ROBERT J. COLVIN",'jw':"JULIE WONG"}
 
@@ -126,4 +129,5 @@ def search():
         names=[]
 	for result in query_results:
  			names.append(dict(fullname=result[0],city=result[1], yearspracticing=result[2], pharmadollars=result[3], services_count=result[4], score=result[5], scoreptile=result[6]))
+	db.close()
 	return render_template("drsearch.html", names=names)
