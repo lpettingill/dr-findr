@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<head>
+   <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.css" />
+   <script src="http://cdn.leafletjs.com/leaflet-0.5/leaflet.js"></script>
+   
+   
+   
+   
+
+
+<style>
+
+#map {
+  position:absolute;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
+}
+
+</style>
+</head>
+<body>
+
+        <div id="map" style="width: 960px; height: 500px"></div>
+
+<script>
+
+
+
+var map = L.map('map').setView([37.775161, -122.419082], 12);
+
+L.tileLayer('http://{s}.tile.stamen.com/toner/{z}/{x}/{y}.jpg', {
+    maxZoom: 18,
+    attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>.'
+}).addTo(map);
+
+
+var circle_1 = L.circle([37.769265, -122.426437], 159.0, {
+                            color: 'black',
+                            fillColor: '#0099FF',
+                            fillOpacity: 0.6
+                            });
+circle_1.bindPopup("Safeway $15.90");
+map.addLayer(circle_1)
+
+var circle_2 = L.circle([37.784841, -122.403786], 160.1, {
+                            color: 'black',
+                            fillColor: '#0099FF',
+                            fillOpacity: 0.6
+                            });
+circle_2.bindPopup("Target $16.01");
+map.addLayer(circle_2)
+
+var circle_3 = L.circle([37.765356, -122.419702], 160.6, {
+                            color: 'black',
+                            fillColor: '#0099FF',
+                            fillOpacity: 0.6
+                            });
+circle_3.bindPopup("Walgreens $16.06");
+map.addLayer(circle_3)
+
+var circle_4 = L.circle([37.765354, -122.431482], 160.6, {
+                            color: 'black',
+                            fillColor: '#0099FF',
+                            fillOpacity: 0.6
+                            });
+circle_4.bindPopup("Community Walgreens $30.25");
+map.addLayer(circle_4)
+
+var circle_5 = L.circle([37.780429, -122.412382], 302.5, {
+                            color: 'black',
+                            fillColor: '#0099FF',
+                            fillOpacity: 0.6
+                            });
+circle_5.bindPopup("CVS $30.25");
+map.addLayer(circle_5)
+
+
+
+
+
+
+</script>
+
+</body>
