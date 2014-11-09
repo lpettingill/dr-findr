@@ -1,7 +1,6 @@
 from flask import render_template, jsonify, request, redirect, url_for
 from app import app
 import pymysql as mdb
-#import maps 
 import folium as fo
 import pandas as pd
 import pdb
