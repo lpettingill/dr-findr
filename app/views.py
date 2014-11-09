@@ -17,7 +17,15 @@ def welcome():
 @app.route('/slides')
 def slides():
 	return render_template("slides.html")
-	
+
+@app.route('/sfpla')
+def slides():
+	return render_template("sfpla.html")
+
+@app.route('/sflip')
+def slides():
+	return render_template("sflip.html")
+
 @app.route('/index2')
 def badtable():
 	db = mdb.connect(user="root", host="localhost", db="demo", charset='utf8')
