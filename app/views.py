@@ -18,11 +18,11 @@ def slides():
 	return render_template("slides.html")
 
 @app.route('/sfpla')
-def slides():
+def sfpla():
 	return render_template("sfpla.html")
 
 @app.route('/sflip')
-def slides():
+def sflip():
 	return render_template("sflip.html")
 
 @app.route('/index2')
